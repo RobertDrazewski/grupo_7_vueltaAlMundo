@@ -1,0 +1,4 @@
+En el Sprint 1 hicimos los bocetos de cada solapa de nuestra página, para tener como guía  a la hora de empezar a armar el HTML.
+Además agregamos ,de manera resumida, detalles sobre la página tales como : a qué tipo de clientes está destinado,qué servicios ofrecemos, etc ,como así también información personal y páginas en las que nos inspiramos.
+Trabajamos en equipo, diviendo tareas y dandonos soporte entre todos para lograr lo mejor en este primer paso y crear una base sólida para los sprint siguientes.
+Con todo esto logramos familiarizarnos con los pasos iniciales a tener en cuenta a la hora de comenzar cualquier proyecto.
