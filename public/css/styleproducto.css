@@ -1,0 +1,35 @@
+.logo{
+    width: 150px;
+    margin-left: 50rem;
+}
+h4{
+    margin-left: 50rem;
+}
+body{
+    background-image: url(/img/salta.jpg);
+    
+}
+.salta{
+ margin-left: 50rem;
+ opacity: -1;
+ border: solid;
+ box-sizing: border-box;
+ margin-left: 15px;
+}
+.fa-sharp{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 60%;
+}
+fieldset{
+  padding: auto;
+  margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+ul{
+    padding: auto;
+    margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 15px;
+}

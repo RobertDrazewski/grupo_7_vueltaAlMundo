@@ -11,80 +11,89 @@
 <body>
 
     <header>
-<img  class="logo" src="/img/logo.jpg" alt="Logo de la empresa">
-<h1> A la vuelta del mundo </h1>
-
-
+        <img  class="logo" src="/img/logo.jpg" alt="Logo de la empresa">
+        <h1> A la vuelta del mundo </h1>
     </header>
 
     <main>
         <h2>Formulario de registro</h2>
-        <div> 
-        <fieldset>
-            <label>
-                Nombre:
-                <input type="text" name="first name" placeholder="Ej: Juan">
-            </label>
-            <label>
-                Apellido:
-                <input type="text" name="last name" placeholder="Ej: Perez">
-            </label>
-            <label>
-                DNI:
-                <input type="text" name="last name" placeholder="Ej: 1234567">
-            </label>
-
-          <label for="Nacionalidad"> <b> Nacionalidad</label>
-                    <select name="Nacionalidad elegida" id="school">
-                        <option value=" ">--Seleccione una opción--</option> 
-                        <option value="A">Argentina</option>
-                        <option value="E">Española</option>
-                        <option value="I">Italiana</option>
-                        <option value="S">Suiza</option> 
-                    </select>
-
-                    
-        </fieldset>
-        <fieldset>
+            <div>  <!--Este va a ser el contenedor de todo mi FORMULARIO para aplicarle CSS -->
+                <fieldset>
                     <label>
+                     Nombre:
+                    <input type="text" name="first name" placeholder="Ej: Juan">
+                    </label>
+
+                     <label>
+                    Apellido:
+                    <input type="text" name="last name" placeholder="Ej: Perez">
+                    </label>
+
+                    <label>
+                     DNI:
+                    <input type="text" name="last name" placeholder="Ej: 1234567">
+                    </label>
+
+                    <label for="Nacionalidad"> <b> Nacionalidad</label>
+                        <select name="Nacionalidad elegida" id="school">
+                            <option value=" ">--Seleccione una opción--</option> 
+                            <option value="A">Argentina</option>
+                            <option value="E">Española</option>
+                            <option value="I">Italiana</option>
+                            <option value="S">Suiza</option> 
+                        </select>
+
+                 </fieldset> <!-- Aca termina mi primer renglón, por eso se usa FIELDSET-->
+       
+                 <fieldset> <!--Ahora quiero que todo lo que sigue se coloque en otro renglon aparte por eso abro otra etiqueta FIELSET-->
+
+                        <label>
                         N° de celular:
                         <input type="text" name="celular" placeholder="Ej: 1234567">
-                    </label>
+                        </label>
 
-                   <label>
+                        <label>
                         Email:
                         <input type="email" name="correo" placeholder="Ej: nombre@ejemplo.com">
-                    </label>
+                        </label>
 
-                   
-    
-                    <label>
+                        <label>
                         SEXO:
-                       <input type="radio" name="SEXO" value="FEM">
-                       Fem.
-                    </label>
+                        <input type="radio" name="SEXO" value="FEM">
+                        Fem.
+                        </label>
                 
-                    <label>
+                        <label>
                         <input type="radio" name="SEXO" value="MAS">
                         Masc.
-                    </label>
+                        </label>
 
-                    <label>
-                       Fecha:
+                        <label>
+                        Fecha:
                         <input type="date" class="fecha">
-                    </label>
+                        </label>
 
                 </fieldset>
 
                 <fieldset class="enviar">
                 <input type="submit" value=" Enviar" class="boton" >
                 </fieldset>
-        </fieldset>
-    </div>
+                
+            </div>
+    </main>
+
+    <footer>
+
+        <p class="pfinal"> <i class="fa-solid fa-at"></i> <a href= "mailto:mdhl@chihockey.org" target="_blank">mdhl@chihockey.org</a></p>
+
+        <P class="pfinal1" > <i class="fa-solid fa-phone"></i> <a href="tel:3512540085"> 3512540085</a></P>
+
+        <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> Buenos Aires-Arg.</p>
+    </footer>
          
     
-         
-    </main>
+    <script src="https://kit.fontawesome.com/6cd48854d2.js" crossorigin="anonymous"></script>      
+    
     
 </body>
 </html>
