@@ -4,9 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pàgina de LOGIN</title>
+    <link rel="stylesheet" href="/css/estilologin.css">
 </head>
 <body>
-    <p>LOGIN</p>
+    <header>
+        <img  class="logo" src="/img/logo.jpg" alt="Logo de la empresa">
+        <h1> A la vuelta del mundo </h1>
+        <div>
+            <fieldset>
+                <label>
+                    Buscá tu proximo destino!:
+                    <input type="text" name="Buscador de viajes" placeholder="EJ: Roma">
+                </label>
+                <fieldset class="enviar">
+                    <input type="submit" value=" buscar" class="buscar" >
+                    </fieldset>
+            </fieldset>
+        </div>
+        </header>
+    <main>
+        <h2> Formulario de Log in</h2>
+        <div>
+            <fieldset>
+                <label>
+                    usuario:
+                    <input type="text" name="user name" placeholder="user name">
+                </label>
+            </fieldset>
+            <fieldset>
+                contraseña: 
+                <input type="text" name="password" placeholder="password">
+            </fieldset>
+            <fieldset class="enviar">
+                <input type="submit" value=" Enviar" class="boton" >
+                </fieldset>
+        </div>
+        <h2>O puedes ingresar con Google</h2>
+        <div>
+            <fieldset>
+                <label">
+            Log in con Google:
+            <input type="text" name="Log in with Google" placeholder="Google user">
+                </label>
+            </fieldset>
+            <fieldset class="enviar">
+                <input type="submit" value=" LOGIN" class="boton" >
+                </fieldset>
+        </div>
+    </main>
+    <footer>
+        <h2>Dejanos tus sugerencias</h2>
+        <div>
+            <fieldset>
+                <label">
+                sugerencias:
+                <input type="text" name="Sugerencias" placeholder="sugerencias del cliente">
+                </label>
+                <label> 
+                  mail:
+                  <input type="email" name="correo" placeholder="Ej: nombre@ejemplo.com">  
+                </label>
+                <fieldset class="enviar">
+                    <input type="submit" value=" Enviar" class="boton" >
+                    </fieldset>
+            </fieldset>
+        </div>
+        <div>
+            <h2>Contactanos</h2>
+            <p>Phone: 123567</p>
+            <p>email: alavueltadelmundo@viajes.com</p>
+
+        </div>
+        <div>
+            <fieldset>
+                <label>
+                    Ayuda:
+                    <input type="help" name="Ayuda" placeholder="cuentanos, en que podemos ayudarte?">
+                </label>
+                <fieldset class="enviar">
+                    <input type="submit" value=" Enviar" class="boton" >
+                    </fieldset>
+            </fieldset>
+        </div>
+    </footer>
 </body>
 </html>
