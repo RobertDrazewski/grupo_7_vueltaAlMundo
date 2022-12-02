@@ -4,9 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <title>Producto</title>
+
+    <link rel="stylesheet" href="/css/styleproducto.css"> <!--linkeo el html con css-->
 </head>
 <body>
-  <p>PRODUCTO</p>  
+  <header>
+    <img class="logo" src="/img/logo.jpg" alt=""><!--LOGO DE PRUEBA-->
+
+  <h4>A la vuelta del MuNdO</h4>  
+
+  <label>
+    Opciones de vuelo:
+   <input type="radio" name="" value="ida">
+   IDA
+   <input type="radio" name="" value="vuelta">
+    VUELTA
+
+</label>
+
+  <p>VUELOS</p>
+
+ <ul>
+  
+
+  <li type="none">Fecha de ida <i class="fa-sharp fa-solid fa-plane-departure"></i></li>
+  <label>
+    Seleccione día
+     <input type="date" class="fecha">
+ </label>
+ 
+ <li type="none">Fecha de vuelta <i class="fa-sharp fa-solid fa-plane-departure"></i></li>
+ <label>
+   Seleccione día
+    <input type="date" class="fecha">
+</label>
+  </ul>
+  <fieldset>
+  <label class="selecciones" for="Origen"> <b> Origen </b></label>
+    <select name="Nacionalidad elegida" id="school">
+        <option value=" ">--Seleccione una opción--</option> 
+        <option value="A">Buenos Aires</option>
+        <option value="E">Córdoba</option>
+        <option value="I">Río Negro</option>
+        <option value="S">Salta</option> 
+    </select>
+  </fieldset>
+
+  <fieldset>
+    <label for="Destino"> <b> Destino </b></label><!--etiqueta b es para poner en negrita-->
+    <select name="Nacionalidad elegida" id="school">
+        <option value=" ">--Seleccione una opción--</option> 
+        <option value="A">Buenos Aires</option>
+        <option value="E">Córdoba</option>
+        <option value="I">Río Negro</option>
+        <option value="S">Salta</option> 
+    </select>
+  </fieldset>
+
+    <fieldset>
+    <label for="Adultos"> <b> Adultos </b></label>
+    <select name="Nacionalidad elegida" id="school">
+        <option value=" ">--Seleccione una opción--</option> 
+        <option value="A">1</option>
+        <option value="E">2</option>
+        <option value="I">3</option>
+        <option value="S">4</option> 
+    </select>
+  </fieldset>
+
+  <fieldset>
+  <label for= "Niños" > <b> Niños </b></label>
+    <select name="Nacionalidad elegida" id="school">
+        <option value=" ">--Seleccione una opción--</option> 
+        <option value="A">1</option>
+        <option value="E">2</option>
+        <option value="I">3</option>
+        <option value="S">4</option> 
+        </select>
+      </fieldset>
+  
+  <img class="salta" src="/img/salta.jpg" alt="">
+</header>
+<script src="https://kit.fontawesome.com/6cd48854d2.js" crossorigin="anonymous"></script>
 </body>
 </html>
