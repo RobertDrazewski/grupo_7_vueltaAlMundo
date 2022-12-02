@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de resitro</title>
-    <link rel="stylesheet" href="estiloregistro.css">
+    <link rel="stylesheet" href="/css/estiloregistro.css">
    
 </head>
 <body>
@@ -13,7 +13,78 @@
     <header>
 <img  class="logo" src="/img/logo.jpg" alt="Logo de la empresa">
 <h1> A la vuelta del mundo </h1>
+
+
     </header>
+
+    <main>
+        <h2>Formulario de registro</h2>
+        <div> 
+        <fieldset>
+            <label>
+                Nombre:
+                <input type="text" name="first name" placeholder="Ej: Juan">
+            </label>
+            <label>
+                Apellido:
+                <input type="text" name="last name" placeholder="Ej: Perez">
+            </label>
+            <label>
+                DNI:
+                <input type="text" name="last name" placeholder="Ej: 1234567">
+            </label>
+
+          <label for="Nacionalidad"> <b> Nacionalidad</label>
+                    <select name="Nacionalidad elegida" id="school">
+                        <option value=" ">--Seleccione una opción--</option> 
+                        <option value="A">Argentina</option>
+                        <option value="E">Española</option>
+                        <option value="I">Italiana</option>
+                        <option value="S">Suiza</option> 
+                    </select>
+
+                    
+        </fieldset>
+        <fieldset>
+                    <label>
+                        N° de celular:
+                        <input type="text" name="celular" placeholder="Ej: 1234567">
+                    </label>
+
+                   <label>
+                        Email:
+                        <input type="email" name="correo" placeholder="Ej: nombre@ejemplo.com">
+                    </label>
+
+                   
+    
+                    <label>
+                        SEXO:
+                       <input type="radio" name="SEXO" value="FEM">
+                       Fem.
+                    </label>
+                
+                    <label>
+                        <input type="radio" name="SEXO" value="MAS">
+                        Masc.
+                    </label>
+
+                    <label>
+                       Fecha:
+                        <input type="date" class="fecha">
+                    </label>
+
+                </fieldset>
+
+                <fieldset class="enviar">
+                <input type="submit" value=" Enviar" class="boton" >
+                </fieldset>
+        </fieldset>
+    </div>
+         
+    
+         
+    </main>
     
 </body>
 </html>
