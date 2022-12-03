@@ -13,10 +13,20 @@
         <h1> A la vuelta del mundo </h1>
         <div>
             <fieldset>
-                <label>
-                    Buscá tu proximo destino!:
-                    <input type="text" name="Buscador de viajes" placeholder="EJ: Roma">
-                </label>
+                <label for="Buscador de viajes"> <b> Viajes</label>
+                    <select name="Nacionalidad elegida" id="school">
+                        <option value=" ">--Seleccione una opción--</option> 
+                        <option value="A">Roma</option>
+                        <option value="E">Miami</option>
+                        <option value="I">Jamaica</option>
+                        <option value="S">Suiza</option> 
+                        <option value="S">Los Angeles CA</option>
+                        <option value="S">Mexico</option>
+                        <option value="S">Tokyo</option>
+                        <option value="S">Perú</option>
+                        <option value="S">Londres</option>
+
+                    </select>
                 <fieldset class="enviar">
                     <input type="submit" value=" buscar" class="buscar" >
                     </fieldset>
@@ -28,6 +38,13 @@
         <div>
             <fieldset>
                 <label>
+                    Email:
+                    <input type="email" name="correo" placeholder="Ej: nombre@ejemplo.com">
+                    </label>
+
+            </fieldset>
+            <fieldset>
+                <label>
                     usuario:
                     <input type="text" name="user name" placeholder="user name">
                 </label>
@@ -36,6 +53,7 @@
                 contraseña: 
                 <input type="text" name="password" placeholder="password">
             </fieldset>
+            
             <fieldset class="enviar">
                 <input type="submit" value=" Enviar" class="boton" >
                 </fieldset>
@@ -54,39 +72,16 @@
         </div>
     </main>
     <footer>
-        <h2>Dejanos tus sugerencias</h2>
-        <div>
-            <fieldset>
-                <label">
-                sugerencias:
-                <input type="text" name="Sugerencias" placeholder="sugerencias del cliente">
-                </label>
-                <label> 
-                  mail:
-                  <input type="email" name="correo" placeholder="Ej: nombre@ejemplo.com">  
-                </label>
-                <fieldset class="enviar">
-                    <input type="submit" value=" Enviar" class="boton" >
-                    </fieldset>
-            </fieldset>
-        </div>
-        <div>
-            <h2>Contactanos</h2>
-            <p>Phone: 123567</p>
-            <p>email: alavueltadelmundo@viajes.com</p>
+    
+    <p class="pfinal"> <i class="fa-solid fa-at"></i> <a href= "mailto:mdhl@chihockey.org" target="_blank">mdhl@chihockey.org</a></p>
 
-        </div>
-        <div>
-            <fieldset>
-                <label>
-                    Ayuda:
-                    <input type="help" name="Ayuda" placeholder="cuentanos, en que podemos ayudarte?">
-                </label>
-                <fieldset class="enviar">
-                    <input type="submit" value=" Enviar" class="boton" >
-                    </fieldset>
-            </fieldset>
-        </div>
+    <P class="pfinal1" > <i class="fa-solid fa-phone"></i> <a href="tel:3512540085"> 3512540085</a></P>
+
+    <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> Buenos Aires-Arg.</p>
+
     </footer>
+
+    <script src="https://kit.fontawesome.com/6cd48854d2.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
