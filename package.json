@@ -11,5 +11,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertDrazewski/grupo_7_vueltaAlMundo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RobertDrazewski/grupo_7_vueltaAlMundo/issues"
+  },
+  "homepage": "https://github.com/RobertDrazewski/grupo_7_vueltaAlMundo#readme",
   "description": ""
 }
