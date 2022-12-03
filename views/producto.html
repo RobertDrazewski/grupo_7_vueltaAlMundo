@@ -29,19 +29,19 @@
  <ul>
   
 
-  <li type="none">Fecha de ida <i class="fa-sharp fa-solid fa-plane-departure"></i></li>
+  <li class="fecha" type="none">Fecha de ida <i class="fa-sharp fa-solid fa-plane-departure"></i></li>
   <label>
     Seleccione día
      <input type="date" class="fecha">
  </label>
  
- <li type="none">Fecha de vuelta <i class="fa-sharp fa-solid fa-plane-departure"></i></li>
+ <li class="fecha"  type="none">Fecha de vuelta <i class="fa-sharp fa-solid fa-plane-departure"></i></li>
  <label>
    Seleccione día
     <input type="date" class="fecha">
 </label>
   </ul>
-  <fieldset>
+  <fieldset> <!--Ahora quiero que todo lo que sigue se coloque en otro renglon aparte por eso abro otra etiqueta FIELSET-->
   <label class="selecciones" for="Origen"> <b> Origen </b></label>
     <select name="Nacionalidad elegida" id="school">
         <option value=" ">--Seleccione una opción--</option> 
@@ -50,7 +50,7 @@
         <option value="I">Río Negro</option>
         <option value="S">Salta</option> 
     </select>
-  </fieldset>
+  </fieldset> <!-- Aca termina mi primer renglón, por eso se usa FIELDSET-->
 
   <fieldset>
     <label for="Destino"> <b> Destino </b></label><!--etiqueta b es para poner en negrita-->
