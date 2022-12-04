@@ -5,35 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito</title>
+    <link rel="stylesheet" href="/css/styleCarrito.css">
 </head>
 <body>
     <header class="header-container">
         <div class="top-header">
-            <p>aca va el logo</p>
-            <p>volver</p>
+            <img src="/img/logo.jpg" class="img-logo" alt="">
+            <!-- <h1>A la vuelta del mundo</h1> -->
+            <button class="back-button"><a href="#">volver</a></button>
         </div>
     </header>
     <main class="main-container">
         <div class="main-top">
-            <p class="user-img">imagen del usuario</p>
             <h2 class="subtitulo">Carrito de compras</h2>
+           <div class="bottom-banner">
+            <p class="user-img"><i class="fa-solid fa-user"></i></p>
+            
             <a href="#" class="ir-a-producto">
-                <h4 class="a-productos">Agregar producto</h4>
+                <p class="a-productos">Agregar producto +</p>
             </a>
+           </div>
         </div>
         <section class="main-carrito">
             <ul class="productos-en-carrito">
-                <li class="producto">producto 1 + precio + cantidad(con posibilidad de sumar unidad) +boton eliminar</li>
-                <li class="producto">Producto 2 + precio + cantidad(con posibilidad de sumar unidad)  +boton eliminar</li>
-                <li class="producto">Producto 3 + precio + cantidad(con posibilidad de sumar unidad)  +boton eliminar</li>
+                <li class="producto">
+                    <div class="box-product">
+                        <img src="/img/avion.jpg" class="img-product">
+                        <div class="descripcion-producto">
+                            <p class="product-name">Mar del plata</p>
+                            <p class="dias">5 dias </p>
+                            <p class="precio">$6.770</p>
+                            <div class="cantidad-producto">
+                                <label for="cantidad-vuelos">Unidades</label>
+                                <select name="cantidad-vuelos" id="cantidad-vuelos">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </div>
+                            <button class="product-remove">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="producto">
+                    <div class="box-product">
+                        <img src="/img/hotel.jpg" class="img-product">
+                        <div class="descripcion-producto">
+                            <p class="product-name">Hotel del sol</p>
+                            <p class="dias">5 dias </p>
+                            <p class="precio">$5.070</p>
+                            <div class="cantidad-producto">
+                                <label for="cantidad-vuelos">Unidades</label>
+                                <select name="cantidad-vuelos" id="cantidad-vuelos">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </div>
+                            <button class="product-remove">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="producto">
+                    <div class="box-product">
+                        <img src="/img/paquete-turista.jpg" class="img-product">
+                        <div class="descripcion-producto">
+                            <p class="product-name">Paquete Turistico</p>
+                            <p class="dias">2 dias </p>
+                            <p class="precio">$1.200</p>
+                            <div class="cantidad-producto">
+                                <label for="cantidad-vuelos">Unidades</label>
+                                <select name="cantidad-vuelos" id="cantidad-vuelos">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </div>
+                            <button class="product-remove">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </section>
         <div class="main-bottom">
-            <p>boton: vaciar carrito</p>
-            <p>boton tipo menú: selecionar medio de pago</p>
-            <p>total: precio total de la suma de todos los productos</p>
-            <p>boton: pagar</p>
+            <div class="limpiar-container">
+                <button class="limpiar-carrito">vaciar carrito</button>
+            </div>
+            <p><div class="medio-de-pago">
+                <label for="tipo-de-pago">Seleccione medio de pago</label>
+                <select name="tipo-de-pago" id="tipo-de-pago">
+                    <option value="tarjeta-visa">Tarjeta VISA</option>
+                    <option value="tarjeta-naranja">Tarjeta NARANJA</option>
+                    <option value="otro-medio-de-pago">Otra</option>
+                </select>
+            </div></p>
+            <p>total: <span class="precio-total-muestra">$3245</span></p>
+            <p><button>Pagar</button></p>
         </div>
     </main>
+    <footer>
+        <div class="footer-grupal">Acá iria el footer grupal</div>
+    </footer>
+    <script src="https://kit.fontawesome.com/c756401e18.js" crossorigin="anonymous"></script>
 </body>
 </html>

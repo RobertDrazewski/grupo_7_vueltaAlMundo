@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+.header-container{
+    border: solid 2px rgb(178, 212, 235); 
+    background-color:rgb(178, 212, 235);
+       
+}
+.top-header{   
+    margin: 4px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img-logo{
+    max-width: 120px;
+}
+.back-button{
+    height: 2em;
+    padding: 0px 2px;
+    align-self: flex-end;
+}
+.back-button a{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/*MAIN TOP*/
+.main-container{
+    /* border: solid 1px blue; */
+    
+}
+     /*BANNER*/
+.main-top{
+    width: 100%;
+    /* border: dotted 2px orange; */
+    
+}
+.subtitulo{
+    padding-top: 4px;
+    text-align: center;
+    font-size: 18px;
+}
+.bottom-banner{
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.user-img{
+    color: white;
+    background-color: rgb(17, 17, 153);
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    
+}
+.user-img i{ /*esto va a cambiar cuando tenga imagen de usuario, solo va a quedar .user-img, y tendra una imagen de fondo*/
+    display: flex;
+    padding-top: 2px;
+    width: 100%;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;    
+}
+
+.ir-a-producto{
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*PRODUCTO*/
+.producto{
+    border: solid 1px #000000;
+}
+.box-product{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px; 
+    min-height: 130px; /*esto no me convence, pero no encontre otra manera que todas las box de los productos midieran iguales*/
+}
+.img-product{
+    max-width: 150px;
+}
+.descripcion-producto{
+    padding: 4px;
+}
+
+.product-remove{
+    padding: 1px;
+    
+}
+
+
+/*MAIN BOTTOM (casi footer)*/
+.main-bottom{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.main-bottom p{
+    margin-top: 10px;
+}
+.limpiar-carrito{
+    width: 100px;
+    text-align: center;
+}
+.limpiar-container{
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+
+.precio-total-muestra{
+    color: blue;
+}
+
+
+
+
+
+/*FOOTER*/
+.footer-grupal{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(172, 231, 191);
+}
