@@ -24,7 +24,10 @@ div{
     margin-bottom: 2rem;
     margin-top: 0.1rem;
 }
-
+fieldset,label{
+    padding: 1rem;
+    padding-left: 1rem;
+}
 .enviar{
     display: flex;
     justify-content: center;
