@@ -1,27 +1,22 @@
 .logo{
     width: 200px;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     border: solid 1px black;
-    padding: 5px
+    justify-content: center;
+
 }
 
-h1{
-    text-align: center;
-    color: rgb(123, 233, 233);
-}
+
 
 h2{
     text-align: center;
     
 }
+
 fieldset,label{
     padding: 1rem;
     padding-left: 1rem;
-}
-*{
-font-family: ;
-
-
 }
 
 div{
@@ -66,12 +61,8 @@ footer{
     text-align: center;
     border: 2rem;
     display: flex;
-  
     flex-wrap: wrap;
-    background-image: url(/img/fondo.jpg);
     background-size: cover; /* imagen de fondo */
-  
-   
     background-color:rgb(172, 231, 191) ;  
     margin-bottom: 2rem;
     margin-left: 0rem;
@@ -83,7 +74,7 @@ footer{
     
 
 }
-
+/*
 .pfinal{
     padding-left: 2rem;
     
@@ -95,9 +86,17 @@ footer{
  .pfinal2{
 padding-left: 25rem;
  }
+*/
+
+.contenedor-footer{
+border: solid 1px rgb(20, 114, 151);
+display: flex;
+justify-content: space-evenly;
+
+}
 
  nav{
-    background-color: rgb(43, 212, 235);
+    background-color: rgb(172, 231, 191);
     padding: 1rem;
     border-radius: 1rem;
     text-align: center;
@@ -110,22 +109,29 @@ padding-left: 25rem;
 .barra5,
 .barra6{
     text-decoration: none;
-    background-color: rgb(4, 4, 4);
-    color: rgb(247, 240, 240);
+    background-color: rgb(34, 194, 186);
+    color: white;
     padding: 0.5rem;
     margin: 0.62rem;
     border-radius: 1rem;
-    box-shadow: 0.12rem 0.12rem white;
+    box-shadow: 0.12rem 0.12rem rgb(7, 20, 202);
     display: inline-flex;
     justify-content: flex-end;
    }
    
    
    header{
-    background-image: url(/img/fondo.jpg);
+   
     width: 100%;
     height: 10%;
-    background-position: center;
-    background-size: cover;
+    background-color:rgb(172, 231, 191)
 
    }
+
+   .banner{
+    width: 100%;
+    height: 230px;
+
+   }
+
+   

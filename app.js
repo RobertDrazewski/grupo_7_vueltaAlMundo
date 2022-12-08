@@ -6,11 +6,11 @@ app.listen(port);
 app.use(express.static('public'));
 
 app.get('/',(req,res)=>{
-    res.sendFile(path.join(__dirname,'/views/home.html'))
+    res.sendFile(path.join(__dirname,'/views/index.html'))
 });
 
 app.get('/registro',(req,res)=>{
-    res.sendFile(path.join(__dirname,'/views/registro.html'))
+    res.sendFile(path.join(__dirname,'/views/register.html'))
 });
 
 app.get('/login',(req,res)=>{
@@ -18,13 +18,10 @@ app.get('/login',(req,res)=>{
 });
 
 app.get('/producto',(req,res)=>{
-    res.sendFile(path.join(__dirname,'/views/producto.html'))
+    res.sendFile(path.join(__dirname,'/views/productDetail.html'))
 });
 
 app.get('/carrito',(req,res)=>{
-    res.sendFile(path.join(__dirname,'/views/carrito.html'))
+    res.sendFile(path.join(__dirname,'/views/productCart.html'))
 });
 
-app.get('/home',(req,res)=>{
-    res.sendFile(path.join(__dirname,'/views/home.html'))
-});
