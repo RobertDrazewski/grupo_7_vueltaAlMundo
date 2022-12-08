@@ -1,6 +1,15 @@
 .logo{
-    width: 150px;
+   
     margin-left: 50rem;
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    border: solid 3px whitesmoke ;
+    padding: 5px;
+    background-color: aquamarine;
+    
+  
+
     
 }
 h4{
@@ -9,6 +18,7 @@ h4{
 body{
     background-color: aqua;
 }
+
 .salta{
  margin-left: 50rem;
  opacity: -1;
@@ -20,6 +30,7 @@ body{
     border-width: 1px;
     border-style: solid;
     border-radius: 60%;
+    padding: 1px;
 }
 fieldset{
   padding: auto;
@@ -28,11 +39,61 @@ fieldset{
     margin-left: 15px;
 }
 .fecha{
-    
-    margin-top: 10px;
+   
+    margin-top: 5px;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 1150px;
     box-sizing: border-box;
-    padding: 1px;
-    border: solid #ebebeb;
+    padding: 0.5px;
+    border: 0.5px solid black ;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+li{
+   
+    /*border-width: 1px;*/
+    border-style: solid;
+    border-radius: 0%;
+    padding: 6px;
+}
+nav{
+    background-color: rgb(43, 212, 235);
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+.barra1,
+.barra2,
+.barra3,
+.barra4,
+.barra5,
+.barra6{
+    text-decoration: none;
+    background-color: rgb(4, 4, 4);
+    color: rgb(247, 240, 240);
+    padding: 0.5rem;
+    margin: 0.62rem;
+    border-radius: 1rem;
+    box-shadow: 0.12rem 0.12rem white;
+    display: inline-flex;
+    justify-content: flex-end;
+   }
+footer{
+    text-align: center;
+    border: 2rem;
+    display: flex;
+  
+    flex-wrap: wrap;
+   
+    background-color:rgb(172, 231, 191) ;  
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    border-radius: 1rem;
+    border: solid rgb(11, 11, 11);
+    padding-left: 0rem;
+    padding-bottom: .5rem;
 }

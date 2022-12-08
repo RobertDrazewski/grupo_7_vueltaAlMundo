@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de resitro</title>
-    <link rel="stylesheet" href="/css/estiloregistro.css">
+    <link rel="stylesheet" href="/css/register.css">
    
 </head>
 <body>
 
     <header>
-        <img  class="logo" src="/img/logo.jpg" alt="Logo de la empresa">
-        <h1> A la vuelta del mundo </h1>
+        <div class="div-logo" >
+        <img  src="/img/logo2.jpg" alt="Logo de la empresa">
+        </div>
+        
 
+        <section >
+           <img  class="banner" src="/img/banner.jpg" alt="banner">
+        </section>
         
         <nav>
-                <a class="barra1" href="home.html" >Home</a>
+                <a class="barra1" href="index" >Home</a>
                 <a class="barra2" href="#">Registro</a>
-                <a class="barra3" href="producto.html">Producto</a>
-                <a class="barra4" href="carrito.html"> Carrito de Compras</a>
-                <a class="barra5" href="login.html">login</a>
+                <a class="barra3" href="productDetail">Producto</a>
+                <a class="barra4" href="productCart"> Carrito de Compras</a>
+                <a class="barra5" href="login">Login</a>
         </nav>
         
     </header>
@@ -88,21 +94,23 @@
                 <fieldset class="enviar">
                 <input type="submit" value=" Enviar" class="boton" >
                 </fieldset>
+               
                 <fieldset class="registrado">
                     
-                    <button class="boton"> <nav><a href="login.html"> ¡Ya estoy registrado/a!</a> </nav> </button>                    
-                    </fieldset>
+                    <button class="boton"> <nav class="nav-reg"><a href="login"> ¡Ya estoy registrado/a!</a> </nav> </button>    
+
+                </fieldset>
                 
             </div>
     </main>
 
-    <footer>
+    <footer class="contenedor-footer">
 
         <p class="pfinal"> <i class="fa-solid fa-at"></i> <a href= "mailto:mdhl@chihockey.org" target="_blank">mdhl@chihockey.org</a></p>
 
         <P class="pfinal1" > <i class="fa-solid fa-phone"></i> <a href="tel:3512540085"> 3512540085</a></P>
 
-        <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> Buenos Aires-Arg.</p>
+        <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> <a href="https://www.google.com.ar/maps/@-34.605646,-58.781371,9.75z/data=!4m2!7m1!2e1"> Bs.As </a> </p>
     </footer>
          
     
