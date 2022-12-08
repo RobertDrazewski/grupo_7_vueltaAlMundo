@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Producto</title>
+
+    <link rel="stylesheet" href="/css/styleproducto.css"> <!--linkeo el html con css-->
+</head>
+<body>
+
+
+  <header>
+    <img class="logo" src="/img/logo.jpg" alt=""><!--LOGO DE PRUEBA-->
+
+  <h1> <b> A la vuelta del Mundo </b></h1>  
+
+
+
+
+  <nav>
+    <a class="barra1" href="home.html" >Home</a>
+    <a class="barra2" href="#">Registro</a>
+    <a class="barra3" href="producto.html">Producto</a>
+    <a class="barra4" href="carrito.html"> Carrito de Compras</a>
+    <a class="barra5" href="login.html">login</a>
+</nav>
+
+
+
+
+  <label>
+    Opciones de vuelo:
+   <input type="radio" name="" value="ida">
+   IDA
+   <input type="radio" name="" value="vuelta">
+    VUELTA
+
+</label>
+
+  <p> <b> VUELOS </b> </p>
+
+ <ul>
+  
+
+  <li class="fecha" type="none">Fecha de ida <i class="fa-sharp fa-solid fa-plane-departure"></i></li>
+  <label>
+    Seleccione día
+     <input type="date" class="fecha">
+ </label>
+ 
+ <li class="fecha"  type="none">Fecha de vuelta <i class="fa-sharp fa-solid fa-plane-departure"></i></li>
+ <label>
+   Seleccione día
+    <input type="date" class="fecha">
+</label>
+  </ul>
+  <fieldset> <!--Ahora quiero que todo lo que sigue se coloque en otro renglon aparte por eso abro otra etiqueta FIELSET-->
+  <label class="selecciones" for="Origen"> <b> Origen </b></label>
+    <select name="Nacionalidad elegida" id="school">
+        <option value=" ">--Seleccione una opción--</option> 
+        <option value="A">Buenos Aires</option>
+        <option value="E">Córdoba</option>
+        <option value="I">Río Negro</option>
+        <option value="S">Salta</option> 
+    </select>
+  </fieldset> <!-- Aca termina mi primer renglón, por eso se usa FIELDSET-->
+
+  <fieldset>
+    <label for="Destino"> <b> Destino </b></label><!--etiqueta b es para poner en negrita-->
+    <select name="Nacionalidad elegida" id="school">
+        <option value=" ">--Seleccione una opción--</option> 
+        <option value="A">Buenos Aires</option>
+        <option value="E">Córdoba</option>
+        <option value="I">Río Negro</option>
+        <option value="S">Salta</option> 
+    </select>
+  </fieldset>
+
+    <fieldset>
+    <label for="Adultos"> <b> Adultos </b></label>
+    <select name="Nacionalidad elegida" id="school">
+        <option value=" ">--Seleccione una opción--</option> 
+        <option value="A">1</option>
+        <option value="E">2</option>
+        <option value="I">3</option>
+        <option value="S">4</option> 
+    </select>
+  </fieldset>
+
+  <fieldset>
+  <label for= "Niños" > <b> Niños </b></label>
+    <select name="Nacionalidad elegida" id="school">
+        <option value=" ">--Seleccione una opción--</option> 
+        <option value="A">1</option>
+        <option value="E">2</option>
+        <option value="I">3</option>
+        <option value="S">4</option> 
+        </select>
+      </fieldset>
+  
+  <img class="salta" src="/img/salta.jpg" alt="">
+</header>
+<footer class="contenedor-footer">
+
+  <p class="pfinal"> <i class="fa-solid fa-at"></i> <a href= "mailto:mdhl@chihockey.org" target="_blank">mdhl@chihockey.org</a></p>
+
+  <P class="pfinal1" > <i class="fa-solid fa-phone"></i> <a href="tel:3512540085"> 3512540085</a></P>
+
+  <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> <a href="https://www.google.com.ar/maps/@-34.605646,-58.781371,9.75z/data=!4m2!7m1!2e1"> Bs.As </a> </p>
+</footer>
+<script src="https://kit.fontawesome.com/6cd48854d2.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
