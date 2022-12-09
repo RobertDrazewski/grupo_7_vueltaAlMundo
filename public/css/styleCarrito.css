@@ -23,7 +23,7 @@
 .back-button{
     height: 2em;
     padding: 0px 2px;
-    align-self: flex-end;
+    /* align-self: flex-end; */
 }
 .back-button a{
     text-decoration: none;
@@ -39,6 +39,7 @@
      /*BANNER*/
 .main-top{
     width: 100%;
+    margin-bottom: 5px;
     /* border: dotted 2px orange; */
     
 }
@@ -86,38 +87,96 @@
 
 
 /*PRODUCTO*/
+.main-carrito{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.main-carrito ul{
+    list-style: none;
+}
+.productos-en-carrito{
+    border: dashed 1px orange;
+    /* padding: 15px; */
+    min-width: 79%;
+    
+}
+
 .producto{
     border: solid 1px #000000;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 300px;
+    
 }
 .box-product{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     padding: 4px; 
     min-height: 130px; /*esto no me convence, pero no encontre otra manera que todas las box de los productos midieran iguales*/
-}
-.img-product{
-    max-width: 150px;
-}
-.descripcion-producto{
-    padding: 4px;
-}
-
-.product-remove{
-    padding: 1px;
     
 }
+.img-product{
+    max-width: 175px;
+    height: 140px;
+    margin: auto;
+    padding-top: 10px;
+}
+.descripcion-producto{
+    display: flex; /**/
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    
+    
+}
+.product-name{
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 4px;
+
+}
+.dias{
+    font-size: 18px;
+    margin-bottom: 4px;
+    
+}
+.precio{
+    font-size: 18px;
+    color: rgb(17, 17, 153);
+    margin-bottom: 4px;
+}
+
+.product-remove{ /*ESTO DEBE IR CON OTRA PROPIEDAD, pero esta es la idea*/
+    margin-top: 10px;
+    width: 9%;
+    align-self: flex-end; 
+    border-radius: 4px;
+}
+
 
 
 /*MAIN BOTTOM (casi footer)*/
 .main-bottom{
     padding-top: 10px;
     padding-bottom: 20px;
+    padding-left: 8px;
 }
-.main-bottom p{
+.main-bottom{
     margin-top: 10px;
+    display: flex;/**/
+    flex-direction: column;
+    padding: 5px;
+
 }
 .limpiar-carrito{
     width: 100px;
+    font-size: 16px;
+    margin-bottom: 10px;
     text-align: center;
 }
 .limpiar-container{
@@ -129,7 +188,13 @@
 .precio-total-muestra{
     color: blue;
 }
-
+.pago-compra{
+    width: 80px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
 
 

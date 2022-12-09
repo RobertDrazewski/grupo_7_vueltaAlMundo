@@ -18,10 +18,12 @@ app.get('/login',(req,res)=>{
 });
 
 app.get('/producto',(req,res)=>{
-    res.sendFile(path.join(__dirname,'/views/productDetail.html'))
+    res.sendFile(path.join(__dirname,'/views/producto.html'))
 });
 
 app.get('/carrito',(req,res)=>{
     res.sendFile(path.join(__dirname,'/views/productCart.html'))
 });
-
+app.get('/gracias',(req,res)=>{
+    res.sendFile(path.join(__dirname,'/views/gracias.html'))
+});
