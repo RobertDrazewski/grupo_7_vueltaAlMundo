@@ -4,45 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"><!--Estilos de letras-->
+    <title>Home</title>
     <link rel="stylesheet" href="/CSS/normalize.css"> <!--Estilos de letras; pequé el normalize en carpeta CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"><!--Estilos de letras-->
+    
     <script src="https://kit.fontawesome.com/6cd48854d2.js" crossorigin="anonymous"></script> <!--iconos-->
-    <link rel="stylesheet" href="/CSS/home.css">
+    <link rel="stylesheet" href="/CSS/index.css">
 </head>
 
-<body>
-    <header>
-        <!--Logotipo-->
-        
-        <h4 >
-            <nav class="nav-bar">
-                <strong><em>AlaVuelta al mundo</em></strong>
-                <div class="buscador"></div>
-                <i class="fa-solid fa-magnifying-glass"> Búsqueda </i>
+<body class="body-container">
+    <header class="header-container">
+        <section class="headertop">
+            <img src="/img/logo.jpg" class="img-logo" alt="">
+            <div class="hamburguesa">
+                <a href="#" class="hamburguer">
+                <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+            <div class="buscador">
+                <i class="fa-solid fa-magnifying-glass"></i><!--barra de busqueda-->
                 <input placeholder="Destinos " type="text">
+            </div>
+            <h1>
+                <strong>
+                    <em>AlaVuelta al mundo</em>
+                </strong>
+            </h1> 
+        </section>
+            
 
-                <i><a href="quienesSomos.html">¿Quiénes somos?</a><!-- si chequeamos esto repito lo mismo en todos--></i>
-                <i><a href="">Destinos destacados</a><!-- si chequeamos esto repito lo mismo en todos--></i>
-                <i><a href="">Ofertas</a><!-- si chequeamos esto repito lo mismo en todos--></i>
-                <i><a href="">Contacto</a><!-- si chequeamos esto repito lo mismo en todos--></i>   
-                <i><a href="">Log in</a><!-- si chequeamos esto repito lo mismo en todos--></i>
+       
                 
+            <nav class="nav-bar">
+                   
+                
+                <i><a href="quienesSomos.html">¿Quiénes somos?</a><!-- si chequeamos esto repito lo mismo en todos--></i>
+                <i><a href="destinosDestacados">Destinos destacados</a><!-- si chequeamos esto repito lo mismo en todos--></i>
+                <i><a href="ofertas">Ofertas</a><!-- si chequeamos esto repito lo mismo en todos--></i>
+                <i><a href="contacto">Contacto</a><!-- si chequeamos esto repito lo mismo en todos--></i>   
+                <i><a href="login.html">Log in</a><!-- si chequeamos esto repito lo mismo en todos--></i>
+                    
+                <ul>
+                    <li>instagram</li>
+                    <li>tiktok</li><!--enlaces a redes sociales-->
+                </ul>
             </nav>
-        </h4>
-
-            <article class="portada">
-                <img src="/img/caribe.jpg" alt="caribe">
-                <p>
-                    "La puerta a tu destino soñado"
-                </p>
-            </article>
-            <!--barra de busqueda-->
-            <!--enlaces a redes sociales-->
-
+        </section>
     </header>
     
+    <main class="portada">
+        <img class="img-playa" src="/img/caribe.jpg" alt="img caribe">
+       <p>
+           "La puerta a tu destino soñado"
+       </p>
+   </main>
 
     <p>HOME test</p>
     <footer>
