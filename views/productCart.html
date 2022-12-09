@@ -12,7 +12,7 @@
         <div class="top-header">
             <img src="/img/logo.jpg" class="img-logo" alt="">
             <!-- <h1>A la vuelta del mundo</h1> -->
-            <button class="back-button"><a href="#">volver</a></button>
+            <button class="back-button"><a href="/">volver</a></button>
         </div>
     </header>
     <main class="main-container">
@@ -21,7 +21,7 @@
            <div class="bottom-banner">
             <p class="user-img"><i class="fa-solid fa-user"></i></p>
             
-            <a href="#" class="ir-a-producto">
+            <a href="./producto" class="ir-a-producto">
                 <p class="a-productos">Agregar producto +</p>
             </a>
            </div>
@@ -36,8 +36,8 @@
                             <p class="dias">5 dias </p>
                             <p class="precio">$6.770</p>
                             <div class="cantidad-producto">
-                                <label for="cantidad-vuelos">Unidades</label>
-                                <select name="cantidad-vuelos" id="cantidad-vuelos">
+                                <label class="selctor-cantidad" for="cantidad-vuelos">Unidades</label>
+                                <select class="selctor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                 </select>
@@ -92,18 +92,18 @@
         </section>
         <div class="main-bottom">
             <div class="limpiar-container">
-                <button class="limpiar-carrito">vaciar carrito</button>
+                <button class="limpiar-carrito">Vaciar carrito</button>
             </div>
-            <p><div class="medio-de-pago">
+            <div class="medio-de-pago">
                 <label for="tipo-de-pago">Seleccione medio de pago</label>
                 <select name="tipo-de-pago" id="tipo-de-pago">
                     <option value="tarjeta-visa">Tarjeta VISA</option>
                     <option value="tarjeta-naranja">Tarjeta NARANJA</option>
                     <option value="otro-medio-de-pago">Otra</option>
                 </select>
-            </div></p>
+            </div>
             <p>total: <span class="precio-total-muestra">$3245</span></p>
-            <p><button>Pagar</button></p>
+            <button class="pago-compra"><a href="./gracias">Pagar</a></button>
         </div>
     </main>
     <footer>
