@@ -33,9 +33,10 @@
 
 .hamburguesa{
   text-align: center;
+  color: rgb(10, 149, 196);
   display: block;
   max-width: 50px;
-  padding: 15px 0;
+  padding: 10px 0;
   border-radius: 4px;
   font-size: 18px;
   margin: auto;
@@ -57,7 +58,7 @@
     font-size: 1em;
     text-align: center;
     padding: 15px 0;
-    
+    color: rgb(5, 103, 136);
   }
 
   .buscador{
@@ -66,38 +67,59 @@
     text-align: center;
     padding: 15px 0;
     margin: 5px;
+    color: rgb(5, 103, 136);
   }
 
   .fa-magnifying-glass{
     font-size: 0.7 rem;
     display: flex;
     align-self: center;
+    color: rgb(5, 103, 136);
+    margin: 2px;
   }
   .nav-bar{
-    display: flex;
+    
     align-self: center;
     border: dashed salmon;
     display: flex; 
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
   }
 
 .nav-bar a {
   text-decoration: none;
   color: #000000;
+  padding: 2px;
 }
 
 
 /*MAIN (hijo del body)*/
 .portada{ 
     width: 100%;
-    
+    color: rgb(5, 103, 136);
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.5rem;/* este no lo toma porq arriba esta el *{}
+    */
 }
 .img-playa{
 width: 100%;
 
 }
 
+.footer{
+  align-self: center;
+  font-weight: 100;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.footer a{
+  text-decoration: none;
+  color: #000000;
+  padding: 2px;
+  
+}
 
 
 
