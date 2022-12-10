@@ -9,37 +9,34 @@
    
 </head>
 <body>
-    <header>
-        <div class="logo" >
-            <img src="/img/logo2.jpg">
-        </div>
-        <div class="Banner">
-        <img src="/img/banner.jpg">
+
+    <header class="header">
+        <div class="logo">
+        <img width="50%" src="/img/logo-transparente.png" alt="">
         </div>
         <section class="hiperbinculos">
             <nav>
-                <a class="barra1" href="index" >Home</a>
-                <a class="barra2" href="register">Registro</a>
-                <a class="barra3" href="productDetail">Producto</a>
-                <a class="barra4" href="productCart"> Carrito de Compras</a>
-                <a class="barra5" href="#">Login</a>
-        </nav>
+                <a class="barra1" href="home" >Home</a>
+                <a class="barra2" href="registro">Registro</a>
+                <a class="barra3" href="producto">Producto</a>
+                <a class="barra4" href="carrito"> Carrito de Compras</a>
+                <a class="barra5" href="login">Login</a>
+            </nav>
         </section>
-            <section class="buscador de viajes">
-                <label for="Buscador de viajes"> <b> Viajes</label>
+            <section class="buscador-de-viajes">
+                <label for="Buscador de viajes"> <b>Elije tu próximo destino!</label>
                     <select name="Buscador">
                         <option value=" ">--Seleccione una opción--</option> 
-                        <option value="A">Buenos Aires</option>
-                        <option value="E">Córdoba</option>
-                        <option value="I">Río Negro</option>
-                        <option value="S">Salta</option> 
-                        
+                        <option value="B">Buenos Aires</option>
+                        <option value="C">Córdoba</option>
+                        <option value="R">Río Negro</option>
+                        <option value="S">Salta</option>  
                     </select>
-                
                     <input type="submit" value=" buscar" class="buscar" >
             </section>
+    
         
-        </header>
+        </header>    
     <main>
         <h2> Formulario de Log in</h2>
         <div class="Formulario">
@@ -56,31 +53,25 @@
         contraseña: 
         <input type="text" name="password" placeholder="password">
         </label>
-            
-        
-                <input type="submit" value=" Enviar" class="boton" >
-            
+        <input type="submit" value=" Enviar" class="boton" >
         </div>
         <h2>O puedes ingresar con Google</h2>
-        <div>
-            <fieldset>
-                <label">
-            Log in con Google:
-            <input type="text" name="Log in with Google" placeholder="Google user">
-                </label>
-            </fieldset>
-            <fieldset class="enviar">
-                <input type="submit" value=" LOGIN" class="boton" >
-                </fieldset>
+        <div class="login-con-google">
+        <label">
+        Log in con Google:
+        <input type="text" name="Log in with Google" placeholder="Google user">
+        </label>
+        <input type="submit" value=" LOGIN" class="boton" >
         </div>
     </main>
+
     <footer>
     
     <p class="pfinal"> <i class="fa-solid fa-at"></i> <a href= "mailto:mdhl@chihockey.org" target="_blank">mdhl@chihockey.org</a></p>
 
     <P class="pfinal1" > <i class="fa-solid fa-phone"></i> <a href="tel:3512540085"> 3512540085</a></P>
 
-    <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> Buenos Aires-Arg.</p>
+    <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> <a href="https://www.google.com.ar/maps/@-34.605646,-58.781371,9.75z/data=!4m2!7m1!2e1"> Bs.As </a> </p>
 
     </footer>
 
