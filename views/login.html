@@ -5,88 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pàgina de LOGIN</title>
-    <link rel="stylesheet" href="/css/estilologin.css">
+    <link rel="stylesheet" href="/css/login.css">
    
 </head>
 <body>
-    <header>
-        <img  class="logo" src="/img/logo.jpg" alt="Logo de la empresa">
-        <h1> A la vuelta del mundo </h1>
-        <div>
-            <fieldset>
-                <label for="Buscador de viajes"> <b> Viajes</label>
-                    <select name="Nacionalidad elegida" id="school">
-                        <option value=" ">--Seleccione una opción--</option> 
-                        <option value="A">Roma</option>
-                        <option value="E">Miami</option>
-                        <option value="I">Jamaica</option>
-                        <option value="S">Suiza</option> 
-                        <option value="S">Los Angeles CA</option>
-                        <option value="S">Mexico</option>
-                        <option value="S">Tokyo</option>
-                        <option value="S">Perú</option>
-                        <option value="S">Londres</option>
 
-                    </select>
-                <fieldset class="enviar">
-                    <input type="submit" value=" buscar" class="buscar" >
-                    </fieldset>
-            </fieldset>
+    <header class="header">
+        <div class="logo">
+        <img width="20%" src="/img/logo-transparente.png" alt="">
         </div>
-
-        <nav>
-            <a href="index" >Home</a>
-            <a href="register">registro</a>
-            <a href="productDetail">Producto</a>
-            <a href="productCart"> Carrito de Compras</a>
-            <a href="#">Login</a>
-    </nav>
-        </header>
+        <section class="hiperbinculos">
+            <nav>
+                <a class="barra1" href="home" >Home</a>
+                <a class="barra2" href="registro">Registro</a>
+                <a class="barra3" href="producto">Producto</a>
+                <a class="barra4" href="carrito"> Carrito de Compras</a>
+                <a class="barra5" href="login">Login</a>
+            </nav>
+        </section>
+            <section class="buscador-de-viajes">
+                <label for="Buscador de viajes"> <b>Elije tu próximo destino!</label>
+                    <select name="Buscador">
+                        <option value=" ">--Seleccione una opción--</option> 
+                        <option value="B">Buenos Aires</option>
+                        <option value="C">Córdoba</option>
+                        <option value="R">Río Negro</option>
+                        <option value="S">Salta</option>  
+                    </select>
+                    <input type="submit" value=" buscar" class="buscar" >
+            </section>
+    
+        
+        </header>    
     <main>
         <h2> Formulario de Log in</h2>
-        <div>
-            <fieldset>
-                <label>
-                    Email:
-                    <input type="email" name="correo" placeholder="Ej: nombre@ejemplo.com">
-                    </label>
-
-            </fieldset>
-            <fieldset>
-                <label>
-                    usuario:
-                    <input type="text" name="user name" placeholder="user name">
-                </label>
-            </fieldset>
-            <fieldset>
-                contraseña: 
-                <input type="text" name="password" placeholder="password">
-            </fieldset>
-            
-            <fieldset class="enviar">
-                <input type="submit" value=" Enviar" class="boton" >
-                </fieldset>
+        <div class="Formulario">
+        
+        <label>
+        Email:
+        <input type="email" name="correo" placeholder="Ej: nombre@ejemplo.com">
+        </label>
+        <label>
+        usuario:
+         <input type="text" name="user name" placeholder="user name">
+        </label>
+        <label>
+        contraseña: 
+        <input type="text" name="password" placeholder="password">
+        </label>
+        <input type="submit" value=" Enviar" class="boton" >
         </div>
         <h2>O puedes ingresar con Google</h2>
-        <div>
-            <fieldset>
-                <label">
-            Log in con Google:
-            <input type="text" name="Log in with Google" placeholder="Google user">
-                </label>
-            </fieldset>
-            <fieldset class="enviar">
-                <input type="submit" value=" LOGIN" class="boton" >
-                </fieldset>
+        <div class="login-con-google">
+        <label">
+        Log in con Google:
+        <input type="text" name="Log in with Google" placeholder="Google user">
+        </label>
+        <input type="submit" value=" LOGIN" class="boton" >
         </div>
     </main>
+
     <footer>
     
     <p class="pfinal"> <i class="fa-solid fa-at"></i> <a href= "mailto:mdhl@chihockey.org" target="_blank">mdhl@chihockey.org</a></p>
 
     <P class="pfinal1" > <i class="fa-solid fa-phone"></i> <a href="tel:3512540085"> 3512540085</a></P>
 
-    <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> Buenos Aires-Arg.</p>
+    <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> <a href="https://www.google.com.ar/maps/@-34.605646,-58.781371,9.75z/data=!4m2!7m1!2e1"> Bs.As </a> </p>
 
     </footer>
 

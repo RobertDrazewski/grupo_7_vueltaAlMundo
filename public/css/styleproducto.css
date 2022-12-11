@@ -20,8 +20,10 @@ body{
 }
 
 .salta{
- margin-left: 50rem;
- opacity: -1;
+ margin-left: 5rem;
+ display: flex;
+
+ 
  border: solid;
  box-sizing: border-box;
  margin-left: 15px;
@@ -96,4 +98,6 @@ footer{
     border: solid rgb(11, 11, 11);
     padding-left: 0rem;
     padding-bottom: .5rem;
+    justify-content: space-evenly;
 }
+

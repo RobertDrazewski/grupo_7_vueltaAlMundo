@@ -1,0 +1,137 @@
+*{
+    font-size: 10px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+:root {
+    --yellow:#EAC926;
+    --dark-blue: #03264C;
+    --light-blue: #1259c3;
+    --gray: #666;
+    --light-gray: #ebebeb;
+    --green: #39b54a;
+  }
+  .body-container{
+    width: 100%;
+  }
+
+/*HEADER(es hijo del body con main)*/
+  .header-container{
+    width: 100%;
+    font-style: normal;
+    border: solid 2px red;
+  }
+
+  .headertop{
+    border: solid 2px greenyellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hamburguesa{
+  text-align: center;
+  color: rgb(10, 149, 196);
+  display: block;
+  max-width: 50px;
+  padding: 10px 0;
+  border-radius: 4px;
+  font-size: 18px;
+  margin: auto;
+}
+
+  .img-logo{
+   
+    margin-left: 0;
+    height: 10%;
+    width: 10%;
+    display: inline-block;
+    border: solid 3px whitesmoke ;
+    padding: 15px 0;
+    background-color: aquamarine;
+    
+  }
+
+  h1{
+    font-size: 1em;
+    text-align: center;
+    padding: 15px 0;
+    color: rgb(5, 103, 136);
+  }
+
+  .buscador{
+    display: flex;
+    align-self: center;
+    text-align: center;
+    padding: 15px 0;
+    margin: 5px;
+    color: rgb(5, 103, 136);
+  }
+
+  .fa-magnifying-glass{
+    font-size: 0.7 rem;
+    display: flex;
+    align-self: center;
+    color: rgb(5, 103, 136);
+    margin: 2px;
+  }
+  .nav-bar{
+    
+    align-self: center;
+    border: dashed salmon;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+.nav-bar a {
+  text-decoration: none;
+  color: #000000;
+  padding: 2px;
+}
+
+
+/*MAIN (hijo del body)*/
+.portada{ 
+    width: 100%;
+    color: rgb(5, 103, 136);
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.5rem;/* este no lo toma porq arriba esta el *{}
+    */
+}
+.img-playa{
+width: 100%;
+
+}
+
+.footer{
+  align-self: center;
+  font-weight: 100;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.footer a{
+  text-decoration: none;
+  color: #000000;
+  padding: 2px;
+  
+}
+
+
+
+
+@media (min-width: 481px)/*tablet´s*/ {
+    body{
+
+    }
+
+} /*reglas para cambios de dispositivos; "Mobile first"; Puse 560 solamente xq está en el video*/
+/*chequear el break point de mi index.html*/
+
+@media (min-width: 769px)/*laptop*/ {
+
+}
