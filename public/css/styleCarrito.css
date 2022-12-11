@@ -30,18 +30,22 @@
     text-align: center;
 }
 
-
 /*MAIN TOP*/
 .main-container{
-    /* border: solid 1px blue; */
+    border: solid 1px blue;
     
 }
+
      /*BANNER*/
 .main-top{
     width: 100%;
     margin-bottom: 5px;
-    /* border: dotted 2px orange; */
-    
+    width: 79%;
+    border: dotted 2px red;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 10px;
 }
 .subtitulo{
     padding-top: 4px;
@@ -49,6 +53,7 @@
     font-size: 18px;
 }
 .bottom-banner{
+    width: 90%;
     padding-top: 10px;
     padding-bottom: 4px;
     padding-left: 7px;
@@ -57,34 +62,20 @@
     justify-content: space-between;
 }
 .user-img{
-    color: white;
-    background-color: rgb(17, 17, 153);
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   box-sizing: border-box; 
+   margin-left: 10px;
+   
 }
-.user-img i{ /*esto va a cambiar cuando tenga imagen de usuario, solo va a quedar .user-img, y tendra una imagen de fondo*/
-    display: flex;
-    padding-top: 2px;
-    width: 100%;
-    font-size: 24px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;    
-}
-
 .ir-a-producto{
     display: flex;
     flex-direction: column-reverse;
-    font-size: 11px;
+    font-size: 13px;
+    font-weight: bold;
     text-decoration: none;
 }
-
-
-
-
-
 
 /*PRODUCTO*/
 .main-carrito{
@@ -110,35 +101,39 @@
     margin: auto;
     margin-bottom: 10px;
     height: 300px;
-    
+    border-radius: 4px;
 }
 .box-product{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 4px; 
+    padding-top: 5px;
     min-height: 130px; /*esto no me convence, pero no encontre otra manera que todas las box de los productos midieran iguales*/
-    
 }
 .img-product{
     max-width: 175px;
     height: 140px;
     margin: auto;
-    padding-top: 10px;
+    padding-top: 5px;
+    margin-bottom: 20px;   
+    border-bottom: solid 2px greenyellow;
 }
 .descripcion-producto{
     display: flex; /**/
     flex-direction: column;
     flex-wrap: wrap;
-    padding-top: 20px;
-    
-    
+    border-top: solid 1px #000000;  
+}
+.descripcion-producto p{
+    padding-left: 4px;
+}
+.descripcion-producto div{
+    padding-left: 4px;
 }
 .product-name{
     font-size: 21px;
     font-weight: bold;
     margin-bottom: 4px;
-
 }
 .dias{
     font-size: 18px;
@@ -156,6 +151,7 @@
     width: 9%;
     align-self: flex-end; 
     border-radius: 4px;
+    margin-right: 2px;
 }
 
 
@@ -195,13 +191,103 @@
     margin-bottom: 10px;
     text-align: center;
 }
-
-
-
-
 /*FOOTER*/
 .footer-grupal{
     width: 100%;
     height: 100px;
     background-color: rgb(172, 231, 191);
+}
+
+
+@media (min-width: 768px){
+ /*HEADER*/
+    .header-container{
+    height: auto;
+ }
+ .img-logo{
+    max-width: 200px;
+    margin: 10px;
+ }
+ .back-button{
+    font-size: 24px;
+ }
+ /*BANNER*/
+ .subtitulo{
+    display: none;
+ }
+ .main-top{
+    position: relative;
+ }
+ .bottom-banner{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .user-img{
+    width: 100px;
+    height: 100px;
+ }
+ .ir-a-producto{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+ }
+ /*PRODUCTO*/
+ .productos-en-carrito{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .producto{
+    width: 49%;
+ }
+ /*MAIN BOTTOM*/
+ .main-bottom{
+    width: 79%;
+    margin: auto;
+    border: dashed 2px violet;
+ }
+ .limpiar-carrito{
+    width: 150px;
+    font-size: 24px;
+ }
+ .medio-de-pago, .total-precio{
+    width: auto;
+    padding: 3px;
+    font-size: 24px;
+ }
+ #tipo-de-pago{
+    font-size: 24px;
+ }
+ .pago-compra{
+    width: 100px;
+    font-size: 24px;
+    margin: auto;  
+ }
+}
+
+@media (min-width: 1024px){
+    /*HEADER*/
+    .header-container{
+        position: relative;
+    }
+    .top-header{
+        border: dashed 2px greenyellow;
+        width: 79%;
+        margin: auto;
+        padding: 0;
+    }
+    .back-button{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }   
+    /*PRODUCTO*/
+    .producto{
+        width: 25%;
+     }  
+
 }
