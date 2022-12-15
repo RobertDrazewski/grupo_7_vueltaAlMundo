@@ -1,8 +1,9 @@
-.logo{
+body{
+    background-color: rgb(178, 212, 235);
+}
+.div-logo img{
     width: 200px;
-    display: inline-block;
-    border: solid 1px black;
-    padding: 5px
+    margin-top: 2rem;
 }
 
 h1{
@@ -17,6 +18,12 @@ h2{
 fieldset,label{
     padding: 1rem;
     padding-left: 1rem;
+    style: none;
+}
+
+fieldset{
+    background-color: transparent;
+border-color: transparent;
 }
 
 div{
@@ -38,8 +45,8 @@ div{
 
 .boton{
     background-color: rgb(178, 212, 235);
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
     
 }
 
@@ -87,14 +94,15 @@ padding-left: 25rem;
  }
 
  nav{
-    background-color: rgb(172, 231, 191) ;
+    background-color: rgb(178, 212, 235);
     padding: 1rem;
     border-radius: 1rem;
     text-align: center;
  }
 
  .nav-reg{
-    background-color: aquamarine;
+    background-color:   rgb(25, 168, 224);
+    
  }
 
  .barra1,
