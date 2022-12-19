@@ -35,21 +35,30 @@
         <h2>Formulario de registro</h2>
             <div class="contenedor-form">  <!--Este va a ser el contenedor de todo mi FORMULARIO para aplicarle CSS -->
                 <form   action="register-form">
+                    <fieldset>
                     <label>
                      Nombre:
                     <input type="text" name="first name" placeholder="Ej: Juan">
                     </label>
+                 </fieldset>
 
+
+                 <fieldset>
                      <label>
                     Apellido:
                     <input type="text" name="last name" placeholder="Ej: Perez">
                     </label>
+                </fieldset>
 
+                <fieldset>
                     <label>
                      DNI:
                     <input type="text" name="last name" placeholder="Ej: 1234567">
                     </label>
+                </fieldset>
 
+
+                <fieldset>
                     <label for="Nacionalidad"> <b> Nacionalidad</label>
                         <select name="Nacionalidad elegida" id="school">
                             <option value=" ">--Seleccione una opción--</option> 
@@ -58,21 +67,25 @@
                             <option value="I">Italiana</option>
                             <option value="S">Suiza</option> 
                         </select>
-
+                    </fieldset>
                <!-- Aca termina mi primer renglón, por eso se usa FIELDSET-->
        
                <!--Ahora quiero que todo lo que sigue se coloque en otro renglon aparte por eso abro otra etiqueta FIELSET-->
-
+                    <fieldset>
                         <label>
                         N° de celular:
                         <input type="text" name="celular" placeholder="Ej: 1234567">
                         </label>
+                    </fieldset>
 
+                    <fieldset>
                         <label>
                         Email:
                         <input type="email" name="correo" placeholder="Ej: nombre@ejemplo.com">
                         </label>
+                    </fieldset>
 
+                    <fieldset>
                         <label>
                         SEXO:
                         <input type="radio" name="SEXO" value="FEM">
@@ -80,16 +93,16 @@
                         <input type="radio" name="SEXO" value="MAS">
                         Masc.
                         </label>
-                
+                    </fieldset>
                        
                    
                         
-
+                    <fieldset>
                         <label>
                         Fecha:
                         <input type="date" class="fecha">
                         </label>
-
+                    </fieldset>
            
 
                 <fieldset class="enviar">

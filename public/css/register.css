@@ -21,6 +21,7 @@ body{
    fieldset{
     background-color: transparent;
    border-color: transparent;
+   
    }
    div{
     background-color: rgb(178, 212, 235);
@@ -79,12 +80,12 @@ body{
     flex-wrap: wrap;
     justify-content: space-evenly;
     }
-   nav{
-    background-color: rgb(178, 212, 235);
-    padding: 1rem;
-    border-radius: 1rem;
-    text-align: center;
-    }
+    nav{
+        background-color: rgb(178, 212, 235);
+        padding: 1rem;
+        border-radius: 1rem;
+        text-align: center;
+        }
    .nav-reg{
     background-color: rgb(25, 168, 224);
    
@@ -109,3 +110,37 @@ body{
    width: 100%;
    height: 230px;
     }
+
+    .contenedor-form{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+
+    /*MEDIA QUERIES*/ 
+
+@media  (max-width:425px){
+    nav{
+        background-color: rgb(118, 221, 123);
+        margin: 0;
+        font-size: 10px;
+    }
+
+    
+.barra1,
+   .barra2,
+   .barra3,
+   .barra4,
+   .barra5,
+   .barra6{
+    
+    margin: 0.15rem;
+
+    justify-content: center;
+    }
+
+    .contenedor-footer{
+        font-size: 10px;
+    }
+}
