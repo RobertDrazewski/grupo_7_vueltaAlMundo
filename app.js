@@ -30,3 +30,9 @@ app.get('/gracias',(req,res)=>{
 app.get('/home',(req,res)=>{
     res.sendFile(path.join(__dirname,'/views/index.html'))
 });
+
+/*INDEX MAIN*/
+
+app.get('/nosotros',(req,res)=>{
+    res.sendFile(path.join(__dirname,'/views/quienesSomos.html'))
+});

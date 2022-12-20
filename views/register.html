@@ -19,13 +19,13 @@
 
         <section >
            <img  class="banner" src="/img/banner.jpg" alt="banner">
-        </section>
+        </section> 
         
         <nav>
                 <a class="barra1" href="home" >Home</a>
-                <a class="barra2" href="#">Registro</a>
+                <a class="barra2" href="registro">Registro</a>
                 <a class="barra3" href="producto">Producto</a>
-                <a class="barra4" href="carrito"> Carrito de Compras</a>
+                <a class="barra4" href="#"> Carrito de Compras</a>
                 <a class="barra5" href="login">Login</a>
         </nav>
         
@@ -33,23 +33,32 @@
 
     <main>
         <h2>Formulario de registro</h2>
-            <div>  <!--Este va a ser el contenedor de todo mi FORMULARIO para aplicarle CSS -->
-                <fieldset>
+            <div class="contenedor-form">  <!--Este va a ser el contenedor de todo mi FORMULARIO para aplicarle CSS -->
+                <form   action="register-form">
+                    <fieldset>
                     <label>
                      Nombre:
                     <input type="text" name="first name" placeholder="Ej: Juan">
                     </label>
+                 </fieldset>
 
+
+                 <fieldset>
                      <label>
                     Apellido:
                     <input type="text" name="last name" placeholder="Ej: Perez">
                     </label>
+                </fieldset>
 
+                <fieldset>
                     <label>
                      DNI:
                     <input type="text" name="last name" placeholder="Ej: 1234567">
                     </label>
+                </fieldset>
 
+
+                <fieldset>
                     <label for="Nacionalidad"> <b> Nacionalidad</label>
                         <select name="Nacionalidad elegida" id="school">
                             <option value=" ">--Seleccione una opción--</option> 
@@ -58,38 +67,43 @@
                             <option value="I">Italiana</option>
                             <option value="S">Suiza</option> 
                         </select>
-
-                 </fieldset> <!-- Aca termina mi primer renglón, por eso se usa FIELDSET-->
+                    </fieldset>
+               <!-- Aca termina mi primer renglón, por eso se usa FIELDSET-->
        
-                 <fieldset> <!--Ahora quiero que todo lo que sigue se coloque en otro renglon aparte por eso abro otra etiqueta FIELSET-->
-
+               <!--Ahora quiero que todo lo que sigue se coloque en otro renglon aparte por eso abro otra etiqueta FIELSET-->
+                    <fieldset>
                         <label>
                         N° de celular:
                         <input type="text" name="celular" placeholder="Ej: 1234567">
                         </label>
+                    </fieldset>
 
+                    <fieldset>
                         <label>
                         Email:
                         <input type="email" name="correo" placeholder="Ej: nombre@ejemplo.com">
                         </label>
+                    </fieldset>
 
+                    <fieldset>
                         <label>
                         SEXO:
                         <input type="radio" name="SEXO" value="FEM">
                         Fem.
-                        </label>
-                
-                        <label>
                         <input type="radio" name="SEXO" value="MAS">
                         Masc.
                         </label>
-
+                    </fieldset>
+                       
+                   
+                        
+                    <fieldset>
                         <label>
                         Fecha:
                         <input type="date" class="fecha">
                         </label>
-
-                </fieldset>
+                    </fieldset>
+           
 
                 <fieldset class="enviar">
                 <input type="submit" value=" Enviar" class="boton" >
@@ -100,6 +114,7 @@
                     <button class="boton"> <nav class="nav-reg"><a href="login"> ¡Ya estoy registrado/a!</a> </nav> </button>    
 
                 </fieldset>
+            </form>
                 
             </div>
     </main>
