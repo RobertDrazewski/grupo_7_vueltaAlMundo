@@ -64,6 +64,10 @@ main{
          text-align: center;
          }
 
+.div-logo img{
+    width: 200px;
+    margin-top: 2rem;
+}
 footer{
     text-align: center;
     border: 2rem;
