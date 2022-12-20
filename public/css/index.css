@@ -118,14 +118,18 @@ header {
    
   .nav-1 button {
     border-radius: 1rem;
-    border: solid 2px blue;
+    border: solid 1px blue;
     background-color: rgb(99, 194, 99);
     padding: 2px;
+    box-shadow: 5px 3px 0px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 3px 0px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 3px 0px 1px rgba(0,0,0,0.75);
   }
 
   .nav-1 i{
-    color: blue;
+    color: rgba(0, 94, 255, 0.696);
     background-color: rgb(99, 194, 99);
+    transform: rotate(45deg)
   }
   .nav-2{
     display: none;
@@ -159,7 +163,7 @@ header {
 
     .banner{
       width: 100%;
-      height: 140px;
+      height: 170px;
        }
  /*
   .nav-bar{
@@ -221,6 +225,13 @@ footer{
     body{
 
     }
+    .nav-2{
+      display: flex;
+      background-color: rgb(178, 212, 235);
+      padding: 1rem;
+      border-radius: 1rem;
+      text-align: center;
+      }
 
 } /*reglas para cambios de dispositivos; "Mobile first"; Puse 560 solamente xq está en el video*/
 /*chequear el break point de mi index.html*/
