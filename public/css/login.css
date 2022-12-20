@@ -67,6 +67,7 @@ main{
 .div-logo img{
     width: 200px;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 footer{
     text-align: center;
