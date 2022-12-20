@@ -171,7 +171,7 @@ footer{
 }
 @media(max-width:1200){
     .imagen-destino{
-        margin-right: 2rem;
-         margin-left: 2rem;
+        margin-right: 10rem;
+        
      } 
 }
