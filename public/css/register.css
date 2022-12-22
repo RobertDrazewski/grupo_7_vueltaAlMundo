@@ -20,16 +20,78 @@ body{
     text-align: center;
    
    }
-   fieldset,label{
-    padding: 1rem;
+
+   /*FORMULARIO*/ 
+
+   form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+      border:dotted red 2px;
+      margin: 0 auto;
+     
+}
+
+   fieldset{
+    padding: 0.2rem;
     padding-left: 1rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+  
+       
+   }
+
+   label , select ,input{
+    border: dotted violet 2px;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+   
+
+   
+    
+   }
+   select{
+    max-width: 25%;
+   }
+   input{
+    margin-left: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    border: solid 1px black;
    
    }
    fieldset{
     background-color: transparent;
    border-color: transparent;
+   max-width: 50%;
+   display: flex;
+   flex-wrap: wrap;
    
    }
+   .button-enviar:hover{
+    color: aliceblue;
+    background-color: #39b54a;
+    opacity: 0.8;
+   }
+   
+.button-enviar {
+    padding: 10px 5px;
+    background: #82cbdf;
+    color: white;
+    transition: all 1s;
+    justify-content: center;
+    margin-left: 1rem;
+    max-width: 20rem;
+    color: black;
+
+    border: 1px solid rgb(0, 0, 0);
+}
    div{
     background-color: rgb(178, 212, 235);
     color: rgb(0, 0, 0);
@@ -40,36 +102,31 @@ body{
     margin-bottom: 2rem;
     margin-top: 0.1rem;
    }
-   .enviar{
+   /*.enviar{
     display: flex;
     justify-content: center;
     background-color: rgb(178, 212, 235);
-   }
-   .boton{
+   }*/ 
+   
+   
+   /*.boton{
     background-color: rgb(178, 212, 235);
     padding: .5rem;
     border-radius: .5rem;
+    text-align: center;
    
-   }
-   .boton:hover{
-    color: aliceblue;
+   }*/
    
-    background-color: rgb(25, 168, 224);
-    opacity: 0.8;
-   }
    footer{
     text-align: center;
     border: 2rem;
     display: flex;
     flex-wrap: wrap;
     background-color:rgb(172, 231, 191) ;
-    margin-bottom: 2rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-    border-radius: 1rem;
-    border: solid rgb(11, 11, 11);
-    padding-left: 0rem;
-    padding-bottom: .5rem;
+   padding: 2rem;
+
+
+    
    }
    /*
    .pfinal{
@@ -118,11 +175,7 @@ body{
    height: 230px;
     }
 
-    .contenedor-form{
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-    }
+   
 
 
     /*MEDIA QUERIES*/ 

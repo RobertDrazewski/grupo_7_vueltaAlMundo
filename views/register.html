@@ -22,10 +22,10 @@
         </section> 
         
         <nav>
-                <a class="barra1" href="home" >Home</a>
-                <a class="barra2" href="registro">Registro</a>
-                <a class="barra3" href="producto">Producto</a>
+                <a class="barra1" href="home" >Incio</a>
+                <a class="barra3" href="producto">Viajes</a>
                 <a class="barra4" href="#"> Carrito de Compras</a>
+                <a class="barra2" href="registro">Registro</a>
                 <a class="barra5" href="login">Login</a>
         </nav>
         
@@ -37,7 +37,8 @@
                 <form   action="register-form">
                     <fieldset>
                     <label>
-                     Nombre:
+                      <b>NOMBRE: </b>  
+                        
                     <input type="text" name="first name" placeholder="Ej: Juan">
                     </label>
                  </fieldset>
@@ -45,26 +46,26 @@
 
                  <fieldset>
                      <label>
-                    Apellido:
+                        <b>APELLIDO: </b>  
                     <input type="text" name="last name" placeholder="Ej: Perez">
                     </label>
                 </fieldset>
 
                 <fieldset>
                     <label>
-                     DNI:
+                     <b>DNI: </b>
                     <input type="text" name="last name" placeholder="Ej: 1234567">
                     </label>
                 </fieldset>
 
 
                 <fieldset>
-                    <label for="Nacionalidad"> <b> Nacionalidad</label>
+                    <label for="Nacionalidad"> <b> PAIS: </b></label>
                         <select name="Nacionalidad elegida" id="school">
                             <option value=" ">--Seleccione una opción--</option> 
                             <option value="A">Argentina</option>
-                            <option value="E">Española</option>
-                            <option value="I">Italiana</option>
+                            <option value="E">España</option>
+                            <option value="I">Italia</option>
                             <option value="S">Suiza</option> 
                         </select>
                     </fieldset>
@@ -73,21 +74,21 @@
                <!--Ahora quiero que todo lo que sigue se coloque en otro renglon aparte por eso abro otra etiqueta FIELSET-->
                     <fieldset>
                         <label>
-                        N° de celular:
+                        <b>N° DE CELULAR: </b>
                         <input type="text" name="celular" placeholder="Ej: 1234567">
                         </label>
                     </fieldset>
 
                     <fieldset>
                         <label>
-                        Email:
+                     <b>   EMAIL: </b>
                         <input type="email" name="correo" placeholder="Ej: nombre@ejemplo.com">
                         </label>
                     </fieldset>
 
                     <fieldset>
                         <label>
-                        SEXO:
+                         <b> SEXO: </b>
                         <input type="radio" name="SEXO" value="FEM">
                         Fem.
                         <input type="radio" name="SEXO" value="MAS">
@@ -99,20 +100,22 @@
                         
                     <fieldset>
                         <label>
-                        Fecha:
+                        <b>FECHA:</b>
+
                         <input type="date" class="fecha">
                         </label>
                     </fieldset>
            
 
                 <fieldset class="enviar">
-                <input type="submit" value=" Enviar" class="boton" >
+                    <input class="button-enviar" type="submit" value="Enviar" href="/">
                 </fieldset>
                
                 <fieldset class="registrado">
                     
-                    <button class="boton"> <nav class="nav-reg"><a href="login"> ¡Ya estoy registrado/a!</a> </nav> </button>    
-
+                    <!--<button class="boton"> <nav class="nav-reg"><a href="login"> ¡Ya estoy registrado/a!</a> </nav> </button>  /!-->
+                        
+                    <a href="login" class="button-enviar">¡ESTOY REGISTRADO/A!</a>
                 </fieldset>
             </form>
                 
