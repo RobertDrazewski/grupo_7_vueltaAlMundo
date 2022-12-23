@@ -106,10 +106,10 @@ footer{
     justify-content: center;
  }
  .box-article{
-    /* display: flex; */
-    /* flex-wrap: wrap;  */
-    margin-left: 25rem;
-   margin-right: 25rem;
+    /* display: flex; 
+    flex-wrap: wrap;  */
+    margin-left: 10rem;
+   margin-right: 10rem;
     border: white solid 2px;
     background-color: rgb(204, 224, 238);
     /* max-width: 25%; */
