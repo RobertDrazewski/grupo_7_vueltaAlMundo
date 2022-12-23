@@ -22,10 +22,10 @@
         </section> 
         
         <nav>
-                <a class="barra1" href="home" >Home</a>
-                <a class="barra2" href="registro">Registro</a>
-                <a class="barra3" href="producto">Producto</a>
-                <a class="barra4" href="#"> Carrito de Compras</a>
+                <a class="barra1" href="home" >Incio</a>
+                <a class="barra3" href="producto">Viajes</a>
+                <a class="barra4" href="carrito"> Carrito de Compras</a>
+                <a class="barra2" href="#">Registro</a>
                 <a class="barra5" href="login">Login</a>
         </nav>
         
@@ -33,102 +33,55 @@
 
     <main>
         <h2>Formulario de registro</h2>
-            <div class="contenedor-form">  <!--Este va a ser el contenedor de todo mi FORMULARIO para aplicarle CSS -->
-                <form   action="register-form">
-                    <fieldset>
-                    <label>
-                     Nombre:
-                    <input type="text" name="first name" placeholder="Ej: Juan">
-                    </label>
-                 </fieldset>
+        <form class="pform" action="register.html" method="GET">
+            
+            
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido" required>
 
-
-                 <fieldset>
-                     <label>
-                    Apellido:
-                    <input type="text" name="last name" placeholder="Ej: Perez">
-                    </label>
-                </fieldset>
-
-                <fieldset>
-                    <label>
-                     DNI:
-                    <input type="text" name="last name" placeholder="Ej: 1234567">
-                    </label>
-                </fieldset>
-
-
-                <fieldset>
-                    <label for="Nacionalidad"> <b> Nacionalidad</label>
-                        <select name="Nacionalidad elegida" id="school">
-                            <option value=" ">--Seleccione una opción--</option> 
-                            <option value="A">Argentina</option>
-                            <option value="E">Española</option>
-                            <option value="I">Italiana</option>
-                            <option value="S">Suiza</option> 
-                        </select>
-                    </fieldset>
-               <!-- Aca termina mi primer renglón, por eso se usa FIELDSET-->
-       
-               <!--Ahora quiero que todo lo que sigue se coloque en otro renglon aparte por eso abro otra etiqueta FIELSET-->
-                    <fieldset>
-                        <label>
-                        N° de celular:
-                        <input type="text" name="celular" placeholder="Ej: 1234567">
-                        </label>
-                    </fieldset>
-
-                    <fieldset>
-                        <label>
-                        Email:
-                        <input type="email" name="correo" placeholder="Ej: nombre@ejemplo.com">
-                        </label>
-                    </fieldset>
-
-                    <fieldset>
-                        <label>
-                        SEXO:
-                        <input type="radio" name="SEXO" value="FEM">
-                        Fem.
-                        <input type="radio" name="SEXO" value="MAS">
-                        Masc.
-                        </label>
-                    </fieldset>
-                       
-                   
-                        
-                    <fieldset>
-                        <label>
-                        Fecha:
-                        <input type="date" class="fecha">
-                        </label>
-                    </fieldset>
+        
+            <input type="email" name="nombre" id="email" placeholder="E-mail" required>
            
+            
+            <input type="text" name="país" id="país" placeholder="País" required>
 
-                <fieldset class="enviar">
-                <input type="submit" value=" Enviar" class="boton" >
-                </fieldset>
-               
-                <fieldset class="registrado">
-                    
-                    <button class="boton"> <nav class="nav-reg"><a href="login"> ¡Ya estoy registrado/a!</a> </nav> </button>    
+        
+            <input type="text" name="num" id="celular" placeholder="N° de celular" required>
+            
+         
+            <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario" required>
+            
+       
+            <input type="password" name="Contraseña" id="password" placeholder="Contraseña" required>
+         <div class="contenedor-botones">
+            <input class="button-enviar" type="submit" value="Enviar" href="/">
 
-                </fieldset>
+            <a href="login" class="button-enviar">Iniciar sesión</a>
+        </div>
+
+           
+ 
+           
             </form>
                 
-            </div>
+            
     </main>
 
     <footer class="contenedor-footer">
 
-        <p class="pfinal"> <i class="fa-solid fa-at"></i> <a href= "mailto:mdhl@chihockey.org" target="_blank">mdhl@chihockey.org</a></p>
+        <p class="pfinal"> <i class="fa-solid fa-at"></i> <a  class="ultimo" href= "mailto:mdhl@chihockey.org" target="_blank"> <b>vueltaalmundo@vuelos.com </b></a></p>
 
-        <P class="pfinal1" > <i class="fa-solid fa-phone"></i> <a href="tel:3512540085"> 3512540085</a></P>
+        <P class="pfinal1" > <i class="fa-solid fa-phone"></i> <a class="ultimo" href="tel:3512540085"> <b> 3512540085 </b></a></P>
 
-        <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> <a href="https://www.google.com.ar/maps/@-34.605646,-58.781371,9.75z/data=!4m2!7m1!2e1"> Bs.As </a> </p>
+        <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> <a  class="ultimo" href="https://www.google.com.ar/maps/@-34.605646,-58.781371,9.75z/data=!4m2!7m1!2e1"> <b>Bs.As</b> </a> </p>
+     
+
+  
+       
+  
     </footer>
          
     
+    <p class="copy">Copyright © 2022 </p>
     <script src="https://kit.fontawesome.com/6cd48854d2.js" crossorigin="anonymous"></script>      
     
     
