@@ -24,7 +24,7 @@
                 <a class="barra1" href="home" >Home</a>
                 <a class="barra2" href="registro">Registro</a>
                 <a class="barra3" href="producto">Producto</a>
-                <a class="barra4" href="#"> Carrito de Compras</a>
+                <a class="barra4" href="#">Carrito</a>
                 <a class="barra5" href="login">Login</a>
         </nav>
         
@@ -40,14 +40,16 @@
            </div>
         </div>
         <section class="main-carrito">
-            <ul class="productos-en-carrito">
-                <li class="producto">
+            <article class="productos-en-carrito">
+                <div class="producto">
                     <div class="box-product">
-                        <img src="/img/avion.jpg" class="img-product">
+                        <img src="/img/salta.jpg" class="img-product">
                         <div class="descripcion-producto">
-                            <p class="product-name">Mar del plata</p>
-                            <p class="dias">5 dias </p>
-                            <p class="precio">$6.770</p>
+                            <p class="product-name">Salta</p>
+                            <p class="dias">5 dias <span class="precio">$6.770</span> </p>                              
+                            <p class="detail">Ciudad con alma Salta es una de las más pintorescas ciudades de Argentina.
+                            Las antiguas casonas con balcones con flores, las iglesias que datan de más de tres siglos atrapan a los visitantes;
+                            la arquitectura característica regresa el tiempo al pasado colonial para ser protagonista directo de la rica historia salteña.</p>
                             <div class="cantidad-producto">
                                 <label class="selctor-cantidad" for="cantidad-vuelos">Unidades</label>
                                 <select class="selctor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
@@ -60,17 +62,22 @@
                             </button>
                         </div>
                     </div>
-                </li>
-                <li class="producto">
+                </div>
+            </article>
+            <article class="productos-en-carrito">
+                <div class="producto">
                     <div class="box-product">
-                        <img src="/img/hotel.jpg" class="img-product">
+                        <img src="/img/cordoba.jpg" class="img-product">
                         <div class="descripcion-producto">
-                            <p class="product-name">Hotel del sol</p>
-                            <p class="dias">5 dias </p>
-                            <p class="precio">$5.070</p>
+                            <p class="product-name">Córdoba</p>
+                            <p class="dias">5 dias <span class="precio">$6.770</span> </p>                              
+                            <p>
+                                Córdoba ofrece al visitante innumerables atractivos, enmarcados por los distintos sistemas serranos del oeste y noroeste provincial.
+                                Sus ríos y arroyos, sus interminables áreas verdes y boscosas, las bondades del clima y los paisajes naturales únicos, atraen visitantes todo el año hacia este privilegiado lugar del mundo.
+                            </p>
                             <div class="cantidad-producto">
-                                <label for="cantidad-vuelos">Unidades</label>
-                                <select name="cantidad-vuelos" id="cantidad-vuelos">
+                                <label class="selctor-cantidad" for="cantidad-vuelos">Unidades</label>
+                                <select class="selctor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                 </select>
@@ -80,17 +87,23 @@
                             </button>
                         </div>
                     </div>
-                </li>
-                <li class="producto">
+                </div>
+            </article>
+            <article class="productos-en-carrito">
+                <div class="producto">
                     <div class="box-product">
-                        <img src="/img/paquete-turista.jpg" class="img-product">
+                        <img src="/img/obelisco.png" class="img-product">
                         <div class="descripcion-producto">
-                            <p class="product-name">Paquete Turistico</p>
-                            <p class="dias">2 dias </p>
-                            <p class="precio">$1.200</p>
+                            <p class="product-name">Buenos Aires</p>
+                            <p class="dias">5 dias <span class="precio">$6.770</span> </p>                              
+                            <p>
+                                Entre los destinos turísticos que debes visitar si estás en Buenos Aires destacan Puerto Madero,
+                                La Boca y el Teatro Colón. Si quieres bailar tango, comer carne deliciosa, conocer estadios y visitar calles coloridas, 
+                                la ciudad de Buenos Aires es la indicada.
+                            </p>
                             <div class="cantidad-producto">
-                                <label for="cantidad-vuelos">Unidades</label>
-                                <select name="cantidad-vuelos" id="cantidad-vuelos">
+                                <label class="selctor-cantidad" for="cantidad-vuelos">Unidades</label>
+                                <select class="selctor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                 </select>
@@ -100,14 +113,38 @@
                             </button>
                         </div>
                     </div>
-                </li>
-            </ul>
+                </div>
+            </article>
+            <article class="productos-en-carrito">
+                <div class="producto">
+                    <div class="box-product">
+                        <img src="/img/bariloche.jpg" class="img-product">
+                        <div class="descripcion-producto">
+                            <p class="product-name">Bariloche</p>
+                            <p class="dias">5 dias <span class="precio">$6.770</span> </p>                              
+                            <p>
+                                Bariloche es una ciudad ubicada entre bosques milenarios, montañas cubiertas de nieve y 
+                                lagos cristalinos, en la provincia de Río Negro, Argentina. Se trata de una postal de nuestra Patagonia.
+                                Una ciudad anfitriona por excelencia, enmarcada por algunas de las bellezas naturales más importantes del país.
+                            </p>
+                            <div class="cantidad-producto">
+                                <label class="selctor-cantidad" for="cantidad-vuelos">Unidades</label>
+                                <select class="selctor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </div>
+                            <button class="product-remove">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
         </section>
         <div class="main-bottom">
-            <div class="limpiar-container">
-                <button class="limpiar-carrito">Vaciar carrito</button>
-            </div>
             <div class="medio-de-pago">
+                <p class="total-precio">Total: <span class="precio-total-muestra">$13245</span></p>
                 <label for="tipo-de-pago">Seleccione medio de pago</label>
                 <select name="tipo-de-pago" id="tipo-de-pago">
                     <option value="tarjeta-visa">Tarjeta VISA</option>
@@ -115,8 +152,10 @@
                     <option value="otro-medio-de-pago">Otra</option>
                 </select>
             </div>
-            <p class="total-precio">Total: <span class="precio-total-muestra">$3245</span></p>
-            <button class="pago-compra"><a href="./gracias">Pagar</a></button>
+            <div class="limpiar-container">
+                <button class="limpiar-carrito">Vaciar carrito</button>
+                <button class="pago-compra">Pagar</button>
+            </div>
         </div>
     </main>
     <footer class="contenedor-footer">
