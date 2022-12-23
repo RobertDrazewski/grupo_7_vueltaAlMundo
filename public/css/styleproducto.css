@@ -62,87 +62,116 @@ nav{
    }
    h1{
     text-align: center;
-    color: blue;
+    color: rgb(51, 139, 110);
     justify-content: center;
     margin: auto;
     margin-bottom: 2rem;
+    font-size: 50px;
+    margin-bottom: 5rem;
    }
    h2{
     text-align: center;
     color:rgb(46, 134, 83);
     justify-content: center;
     margin: auto;
-    margin-top: 2rem;
+ 
+    font-size: 30px;
    }
 
-footer{
-    text-align: center;
-    border: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    background-color:rgb(172, 231, 191) ;  
-    margin-bottom: 2rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-    border-radius: 1rem;
-    border: solid rgb(11, 11, 11);
-    padding-left: 0rem;
-    padding-bottom: .5rem;
+.contenedor-footer{
+    font-size: 10px;
 }
-footer{
+.pfinal,
+   .pfinal1,
+   .pfinal2,
+   .ultimo{
+    color: rgb(3, 3, 3);
+    background-color: #5cbbe0;
+    border-radius: 5rem;
+    padding: .5rem;
+   }
+   .pfinal:hover,
+   .pfinal1:hover,
+   .pfinal2:hover,
+   .ultimo:hover{
+    background-color: aquamarine;
+   }
+   footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-top: 4px;
-
- }
- main{
+    background-image: url(/img/banner-seaStar.jpg);
+    background-position: 100% 70%;
+    height: 12.5rem;
+    width:100%;
+    align-content: center;
+    opacity: 90%;
+   }
+  .copy{
     text-align: center;
-    width: 100%;
-    margin: auto;
- }
- section{
+  }
+
+
+ 
+
+
+.box-product{
+    border: solid whitesmoke 2px;
+    max-width: 80%;
+    justify-content: center;
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
- }
- .box-article{
-    /* display: flex; 
-    flex-wrap: wrap;  */
-    margin-left: 10rem;
-   margin-right: 10rem;
-    border: white solid 2px;
-    background-color: rgb(204, 224, 238);
-    /* max-width: 25%; */
- }
-.imagen-destino{
-    height: 200px;
-    width: 200px;
-    box-sizing: border-box;
-    justify-content: center;
-    /* margin-left: 11rem; */
-    margin-top: 1rem;
+    padding-top: 5px;
+    margin: auto;
+    /* justify-content: space-between; */
+    /*esto no me convence, pero no encontre otra manera que todas las box de los productos midieran iguales*/
+    
+}
+.img-product{
+    width: 45%;
+    margin: 10px;
 
-    margin-right: 5rem;
-    margin-left: 5rem;
- }
- .box-parrafo{
-    /* align-items: flex-end; */
+}
+.descripcion-producto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    /* padding-bottom: 2rem; */
+}
+.boton-quiero{
+    padding: 10px 5px;
+    /* background: #82cbdf; */
+    color: white;
+    transition: all 1s;
+    justify-content: center;
+    /* margin-left: 1rem; */
+    max-width: 50%;
+    color: black;
     text-align: center;
-    padding: 0.5rem;
-    font-weight: bold;
- }
- 
- .boton{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    border: 1px solid whitesmoke;
 
- }
- .boton:hover{
-    color: aliceblue;
-    background-color: rgb(25, 168, 224);
-    opacity: 0.8;
-   
+
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.boton{
+ justify-content: center;
+ text-align: center;
+ margin-top: 1rem;
 }
 @media(max-width: 425px){
     .imagen-destino{
@@ -178,9 +207,3 @@ footer{
         margin-left: 5rem;
     }   
 }
-/* @media(max-width:1200){
-    .imagen-destino{
-        margin-right: 10rem;
-        
-     } 
-} */

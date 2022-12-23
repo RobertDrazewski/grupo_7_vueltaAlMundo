@@ -145,6 +145,8 @@
     transition: 0.3s;
 }
 .box-product{
+    border: dotted red 2px;
+    
     display: flex;
     /* flex-direction: column; */
     flex-wrap: wrap;
