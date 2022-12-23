@@ -71,7 +71,7 @@
 .main-container{
     /* border: solid 1px blue; */
     padding-top: 30px;
-    background-color: #efefef;
+    background-color: rgb(178, 212, 235);
 }
 
      /*BANNER*/
@@ -145,8 +145,7 @@
     transition: 0.3s;
 }
 .box-product{
-    border: dotted red 2px;
-    
+    background-color: #efefef;
     display: flex;
     /* flex-direction: column; */
     flex-wrap: wrap;
