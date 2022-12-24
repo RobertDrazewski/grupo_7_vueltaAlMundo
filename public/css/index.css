@@ -130,10 +130,9 @@ main {
     */
 }
 
-.portada h4{
+.viajo-xq h4{
   font-size: 20px;
   margin: 0px 0 ;
-  font-family: 'Times New Roman', Times, serif;
   font-weight: 100;
   opacity: 70%;
 }
@@ -142,7 +141,6 @@ main {
   width: auto;
   font-weight: 700;
   font-size: 50px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 40px 0;
 }
 
@@ -156,9 +154,57 @@ main {
   margin: 20px 10px;
 }
 
+.ofertas{
+  margin: 10% 0;
+}
+
+.nav-ofertas{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  font-size: 25px;
+}
+
+.ofertas div{
+  width: 24%;
+  margin: 2px;
+}
+.ofertas img{
+  width: 100%;
+  margin: 2px;
+}
+
+.ofertas h4 {
+  font-size: 25px;
+  margin: 0px 0 ;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.tarjetas{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  height: 80px;
+  margin: 10px 0;
+}
+
+.tarjetas div{
+  width: 10%;
+}
+
+.tarjetas img {
+  width: 100%;
+}
+.tarjetas h4{
+  font-size: 20px;
+}
+
 .recomendados{
   background-color: #ebebeb;
-  margin-bottom: 1%;
+  margin: 10% 0;
   padding-bottom: 10px;
 }
 
@@ -166,7 +212,7 @@ main {
   text-align: left;
   font-size: 25px;
   width: 100%;
-  margin: 0 0 20px 0.5%;
+  margin: 10% 0 20px 0.5%;
 }
 
 .recomendados nav{
@@ -531,5 +577,7 @@ footer{
     1- quitar bordes de foto banner
     2- QUItar borde superior de la pagina
     3- Descripcion bs as es mas larga q las otras
-    4-
+    4- Ofertas en MAIN
+    5- Equipaje adicional
+    6-Logo wapp fixed
     */
