@@ -2,6 +2,7 @@
     margin: 0;  /*aca está la dif del footer en margin y padding*/
     padding: 0; 
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 :root {
     --yellow:#EAC926;
@@ -11,7 +12,9 @@
     --light-gray: #ebebeb;
     --green: #39b54a;
   }
-
+.bodyClass{
+    background-color: rgb(178, 212, 235);
+}
 /*HEADER*/
 /*header{  /*configuracion imagen de fondo*/
    /* height: 70vh;
@@ -71,7 +74,6 @@
 .main-container{
     /* border: solid 1px blue; */
     padding-top: 30px;
-    background-color: #efefef;
 }
 
      /*BANNER*/
@@ -99,14 +101,14 @@
     display: flex;
     justify-content: space-between;
 }
-.user-img{
+/* .user-img{
    width: 50px;
    height: 50px;
    border-radius: 50%;
    box-sizing: border-box; 
    margin-left: 10px;
    
-}
+} */
 .ir-a-producto{
     display: flex;
     flex-direction: column-reverse;
