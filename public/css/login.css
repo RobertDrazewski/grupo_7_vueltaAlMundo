@@ -59,8 +59,11 @@ main{
     padding-top: 0%;
     padding-bottom: 25%;
     border-radius: 1rem;
-    
     margin-bottom: 1%;
+}
+.form{
+flex-direction: column;
+justify-content: flex-start;
 }
 .banner{
     width: 100%;
@@ -85,14 +88,14 @@ footer{
     flex-wrap: wrap;
     border-top: 1%;
     background-color:rgb(172, 231, 191) ;  
-    margin-bottom: 2rem;
+    
     margin-left: 0rem;
     margin-right: 0rem;
     border-radius: 1rem;
     border: solid rgb(11, 11, 11);
     padding-left: 0rem;
     padding-bottom: .5rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
