@@ -25,6 +25,14 @@ header {
   font-size: 12px;
   background-color: rgb(178, 212, 235);
 }
+
+.header-container{
+  width: 100%;
+  font-style: normal;
+  font-size: 12px; 
+  background-color: rgb(178, 212, 235);
+}
+
 .barra1,
 .barra2,
 .barra3,
@@ -48,14 +56,14 @@ header {
 
 .banner{
   width: 100%;
-
+  margin-top: 140px;
 }
 .banner-sec{
   position: relative;
 }
 .donde{
   position: absolute;
-  bottom: 50%;
+  bottom: 32%;
   right: 45%;
   opacity: 50%;
   font-size: 16px;
@@ -84,22 +92,17 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem 1rem 0.5rem 1rem;
-  padding: 1rem 0 0 0;
+  padding: 2rem 0 0 0;
+  width: 100vw;
+  background-color: rgb(178, 212, 235);
+  position: fixed;
+  z-index: 10;
 }
     
 .div-logo img{
   width: 200px;
   margin-bottom: 10px;
 }
-
-    
-.header-container{
-  width: 100%;
-  font-style: normal;
-  min-width: 32vw; 
-  font-size: 12px; 
-  }
 
   .nav-bar{
     display: flex;
@@ -123,11 +126,11 @@ main {
     width: 100%;
     color: rgb(5, 103, 136);
     background-color: #ebebeb;
-    margin: 10px;
     font-weight: 500;
     text-align: center;
     font-size: 1.5rem;/* este no lo toma porq arriba esta el *{}
     */
+    padding: 10px 0;
 }
 
 .viajo-xq h4{
@@ -166,7 +169,7 @@ main {
 }
 
 .ofertas div{
-  width: 24%;
+  width: 32%;
   margin: 2px;
 }
 .ofertas img{
@@ -182,12 +185,21 @@ main {
   padding: 10px 0;
 }
 
+.ofertas h3{
+  font-size: 20px;
+  margin: 5px;
+  }
+
+.nav-ofertas p{
+  font-size: 12px;
+  }
+
 .tarjetas{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: white;
-  height: 80px;
+  padding: 40px;
   margin: 10px 0;
 }
 
@@ -198,8 +210,8 @@ main {
 .tarjetas img {
   width: 100%;
 }
-.tarjetas h4{
-  font-size: 20px;
+.tarjetas p{
+  font-size: 15px;
 }
 
 .recomendados{
@@ -227,6 +239,9 @@ width: 24%;
 margin: 2px;
 }
 
+.card {
+  padding-bottom: 10px;
+}
 
 .recomendados img{
   width: 100%;
@@ -240,11 +255,16 @@ margin: 2px;
    margin: 5px;
   }
 
+.nav-destinos p{
+font-size: 12px;
+}
+
 .exito{
   border: solid 0.5px gray;
   width: 40%;
   font-size: 16px;
   text-align: center;
+  margin-bottom: 10px;
 }
 .img-playa{
   width: 100%;
@@ -377,7 +397,7 @@ footer{
   }
 
   .div-logo{  
-    margin: 1rem 0.5rem 0.1rem 1rem;
+   position: revert;
   }
   .div-logo img{
     width: 200px;
@@ -387,57 +407,73 @@ footer{
     font-size: 14px;
   }
 
+  .donde{
+    font-size: 14px;
+  }
 
-    .donde{
-      font-size: 14px;
-    }
-
-    .fa-magnifying-glass{
-      font-size: 14px;
-    }
+  .fa-magnifying-glass{
+    font-size: 14px;
+  }
     
-    .fa-plane-up{
-      font-size: 14px;
-    }
+  .fa-plane-up{
+    font-size: 14px;
+  }
 
-    .frase{
-      font-size: 30px;
-      margin: 20px 0;
-    }
+  .banner{
+    margin-top: 0px;
+  }
 
-    .portada h4{
-      font-size: 15px;
-      margin: 0px 0 ;
-    }
+  .frase{
+    font-size: 30px;
+    margin: 20px 0;
+  }
 
-    .viajo-xq {
-      background-color: #ebebeb;
-      height: 270px;
-    }
+  .portada h4{
+    font-size: 15px;
+    margin: 0px 0 ;
+  }
+
+  .viajo-xq {
+    background-color: #ebebeb;
+    height: 270px;
+  }
     
-    .viajo-xq p{
-      font-size: 20px;
-      margin: 20px 10px;
-    }
+  .viajo-xq p{
+    font-size: 20px;
+    margin: 20px 10px;
+  }
 
-    .experiencias-ValM{
-      text-align: left;
-      font-size: 25px;
-      width: 100%;
-      margin: 0 0 20px 10px;
-    }
+  .tarjetas p{
+    font-size: 10px;
+    width: 100%;
+  }
 
-    .recomendados{
-      margin: 5px 0 5px 0px
-    }
+  .tarjetas {
+    display: flex;
+    padding: 39px ;
+}
+.tarjeta-oculta{
+  display: none;
+}
 
-    .recomendados nav{
-      font-size: 25px;
+  .experiencias-ValM{
+    text-align: left;
+    font-size: 25px;
+    width: 100%;
+    margin: 0 0 20px 10px;
+  }
+
+  .recomendados{
+    margin: 5px 0 5px 0px
+  }
+
+  .recomendados nav{
+    font-size: 25px;
+  }
+  .recomendados div{
+    width: 32%;
+    margin: 2px;
     }
-    .recomendados div{
-      width: 32%;
-      margin: 2px;
-      }
 
 }
 
@@ -461,7 +497,7 @@ footer{
       }
 
       .div-logo{  
-        margin: 0rem 1rem;
+        margin: 0rem 0rem;
       }
 
       .nav-bar a{
@@ -471,6 +507,7 @@ footer{
 
       .donde{
         font-size: 10px;
+        padding: 5px 0px;
       }
   
       .fa-magnifying-glass{
@@ -501,6 +538,15 @@ footer{
         margin: 20px 10px;
       }
 
+      .nav-ofertas p {
+        font-size: 10px;
+    }
+
+      .ofertas div{
+        width: 40%;
+        margin: 2px;
+      }
+
       .experiencias-ValM{
         text-align: left;
         font-size: 15px;
@@ -518,7 +564,14 @@ footer{
 
       .recomendados img{
         width: 100%;
-        height: 25%;
+      }
+
+      .recomendados p{
+        font-size: 10px;
+      }
+
+      .exito {
+        width: 100%;
       }
 }
     
@@ -574,10 +627,11 @@ footer{
 
 
     /* *************************  
-    1- quitar bordes de foto banner
-    2- QUItar borde superior de la pagina
-    3- Descripcion bs as es mas larga q las otras
-    4- Ofertas en MAIN
-    5- Equipaje adicional
-    6-Logo wapp fixed
+    1- quitar BORDE inferior de foto banner
+    2- Equipaje adicional
+    3-Logo wapp fixed
+    4-Propagandas
+    5-Log in o "abrir sesión"?
+    6- 
+    7- 
     */
