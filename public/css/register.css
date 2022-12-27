@@ -44,7 +44,7 @@ body{
     .barra4:hover,
     .barra5:hover{
         color: blue;
-        font-weight: bold;
+        
     }
     .banner{
    width: 100%;
@@ -213,7 +213,7 @@ main form{
    
 
 
-  /*FOOTER*/ 
+  /*ESTILOS DE FOOTER*/ 
 
 
    .pfinal,
@@ -233,18 +233,7 @@ main form{
    }
    
 
-   /*
-   .pfinal{
-    padding-left: 2rem;
    
-   }
-   .pfinal1{
-    padding-left: 20rem;
-   }
-    .pfinal2{
-   padding-left: 25rem;
-    } */
-
   
     
    footer{
@@ -262,6 +251,19 @@ main form{
     text-align: center;
   }
     
+
+  /*
+   .pfinal{
+    padding-left: 2rem;
+   
+   }
+   .pfinal1{
+    padding-left: 20rem;
+   }
+    .pfinal2{
+   padding-left: 25rem;
+    } */
+
 
 
    

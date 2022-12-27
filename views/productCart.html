@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/styleCarrito.css">
     <link rel="stylesheet" href="/css/footer.css">
 </head>
-<body>
+<body class="bodyClass">
     <header>
         <div class="div-logo" >
         <img  src="/img/logo-transparente.png" alt="Logo de la empresa">
@@ -17,23 +17,22 @@
         
 
         <section >
-           <img  class="banner" src="/img/banner.jpg" alt="banner">
+           <img  class="banner" src="/img/wingBanner.jpg" alt="banner">
         </section> 
         
-        <nav>
-                <a class="barra1" href="home" >Home</a>
-                <a class="barra2" href="registro">Registro</a>
-                <a class="barra3" href="producto">Producto</a>
+        <nav class="navBar">
+                <a class="barra1" href="home" >Inicio</a>
+                <a class="barra3" href="producto">Viajes</a>
                 <a class="barra4" href="#">Carrito</a>
+                <a class="barra2" href="registro">Registro</a>
                 <a class="barra5" href="login">Login</a>
         </nav>
         
     </header>
     <main class="main-container">
         <div class="main-top">
-            <h2 class="subtitulo">Carrito de compras</h2>
-           <div class="bottom-banner">
-            <img class="user-img" src="/img/el_pato_lucas.jpg" alt="">
+            <!-- <h2 class="subtitulo">Carrito de compras</h2> -->
+            <div class="bottom-banner">
             <a href="./producto" class="ir-a-producto">
                 <p class="a-productos">Agregar producto +</p>
             </a>
@@ -43,19 +42,27 @@
             <article class="productos-en-carrito">
                 <div class="producto">
                     <div class="box-product">
-                        <img src="/img/salta.jpg" class="img-product">
+                        <img src="/img/calles-de-salta.jpg" class="img-product">
                         <div class="descripcion-producto">
                             <h2 class="product-name">Salta</h2>
                             <p class="dias">5 dias <span class="precio">$14.977</span> </p>
                             <p class="ofertas">20% OFF</p>                              
-                            <p class="salida"><i class="fa-sharp fa-solid fa-plane-departure"></i>28-12-22</p>
-                            <p class="vuelta"><i class="fa-solid fa-plane-arrival"></i>05-01-23</p>
-                            <h3 class="hospedaje"><i class="fa-solid fa-square-h"></i>Hotel del sol</h3>
-                            <p class="vehiculo">Alquiler de vehiculo: <span class="alqAuto">5 dias</span></p>
-                            <p class="exursiones">Excursiones: <span class="alqExcursiones">2</span></p>
+                            <div class="fechaIdaVuelta">
+                                <p class="salida">Ida <span class="fechaViaje"><i class="fa-sharp fa-solid fa-plane-departure"></i>28-12-22</span></p>
+                                <p class="vuelta">Vuelta <span class="fechaViaje"><i class="fa-solid fa-plane-arrival"></i>05-01-23</span></p>
+                            </div>
+                            <h3 class="hospedaje"><i class="fa-solid fa-square-h"></i>Hospedaje</h3>
+                            <p class="comentario">Hotel del sol</p> <!--esta clase 2ble es para poner un formato de titulo apurado-->
+                            <h3 class="hospedaje ">Alquiler de vehiculo</h3>
+                            <p class="alqAuto comentario">Corsa cuatro puertas familiar</p>
+                            <ul class="excursionList">
+                                <h3 class="hospedaje">Excursiones incluidas</h3>
+                                <li class="elementoExcursion">Día completo a Salinas Grandes, Purmamarca con senderismo</li>
+                                <li class="elementoExcursion">San antonio de los cobres, ruta del tren a las nubes</li>
+                            </ul><!--Hacerlo 2-->
                             <div class="cantidad-producto">
-                                <label class="selctor-cantidad" for="cantidad-vuelos">Cantidad: </label>
-                                <select class="selctor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
+                                <label class="selector" for="cantidad-vuelos">Personas: </label>
+                                <select class="selcetor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                 </select>
@@ -105,7 +112,7 @@
                                 la ciudad de Buenos Aires es la indicada.
                             </p>
                             <div class="cantidad-producto">
-                                <label class="selctor-cantidad" for="cantidad-vuelos">Unidades</label>
+                                <label class="selctor-cantidad" for="cantidad-vuelos">Personas</label>
                                 <select class="selctor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -121,7 +128,7 @@
             <article class="productos-en-carrito">
                 <div class="producto">
                     <div class="box-product">
-                        <img src="/img/bariloche.jpg" class="img-product">
+                        <img src="/img/bariloche-005.jpg" class="img-product">
                         <div class="descripcion-producto">
                             <p class="product-name">Bariloche</p>
                             <p class="dias">5 dias <span class="precio">$6.770</span> </p>                              
@@ -163,12 +170,14 @@
     </main>
     <footer class="contenedor-footer">
 
-        <p class="pfinal"> <i class="fa-solid fa-at"></i> <a href= "mailto:mdhl@chihockey.org" target="_blank">mdhl@chihockey.org</a></p>
+        <p class="pfinal"> <i class="fa-solid fa-at"></i> <a  class="ultimo" href= "mailto:mdhl@chihockey.org" target="_blank"> <b>vueltaalmundo@vuelos.com </b></a></p>
 
-        <P class="pfinal1" > <i class="fa-solid fa-phone"></i> <a href="tel:3512540085"> 3512540085</a></P>
+        <P class="pfinal1" > <i class="fa-solid fa-phone"></i> <a class="ultimo" href="tel:3512540085"> <b> 3512540085 </b></a></P>
 
-        <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> <a href="https://www.google.com.ar/maps/@-34.605646,-58.781371,9.75z/data=!4m2!7m1!2e1"> Bs.As </a> </p>
+        <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> <a  class="ultimo" href="https://www.google.com.ar/maps/@-34.605646,-58.781371,9.75z/data=!4m2!7m1!2e1"> <b>Bs.As</b> </a> </p>
+     
     </footer>
+         <p class="copy">Copyright © 2022 </p>
     <script src="https://kit.fontawesome.com/c756401e18.js" crossorigin="anonymous"></script>
 </body>
 </html>
