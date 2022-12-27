@@ -44,7 +44,7 @@
     }
 
     
-    nav{
+    .navBar{  /*esta clase se la agregue a la etiqueta nav, para no usarla por etiqueta*/
         background-color: rgb(178, 212, 235);
         padding: 1rem;
         border-radius: 1rem;
