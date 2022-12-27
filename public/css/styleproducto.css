@@ -116,7 +116,7 @@ nav{
     width:100%;
     align-content: center;
     opacity: 90%;
-    margin-top: 4rem;
+    font-size: 1000px ;
    }
   .copy{
     text-align: center;
@@ -207,9 +207,19 @@ nav{
         margin-left: 5rem;
     }  
     nav{
-        
+        background-color: rgb(64, 120, 240);
         margin: 0;
         font-size: 10px;
+    }
+    .box-product{
+        max-width: 80%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    margin: auto;
+   margin-bottom: 2rem;
     }
  
    
