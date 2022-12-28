@@ -207,7 +207,7 @@ nav{
         margin-left: 5rem;
     }  
     nav{
-        background-color: rgb(64, 120, 240);
+        /* background-color: rgb(64, 120, 240); */
         margin: 0;
         font-size: 13px;
     }
