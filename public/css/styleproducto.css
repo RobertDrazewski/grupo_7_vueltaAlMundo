@@ -207,7 +207,7 @@ nav{
         margin-left: 5rem;
     }  
     nav{
-        
+        background-color: rgb(64, 120, 240);
         margin: 0;
         font-size: 13px;
     }
@@ -240,6 +240,7 @@ nav{
         max-width: 100%;
         
     }
+
 } 
 
 @media(max-width: 768px){
