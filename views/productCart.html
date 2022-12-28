@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito</title>
     <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/styleCarrito.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/styleCarrito.css">
 </head>
-<body>
+<body class="bodyClass">
     <header>
         <div class="div-logo" >
         <img  src="/img/logo-transparente.png" alt="Logo de la empresa">
@@ -17,23 +17,22 @@
         
 
         <section >
-           <img  class="banner" src="/img/banner.jpg" alt="banner">
+           <img  class="banner" src="/img/wingBanner.jpg" alt="banner">
         </section> 
         
-        <nav>
-                <a class="barra1" href="home" >Home</a>
-                <a class="barra2" href="registro">Registro</a>
-                <a class="barra3" href="producto">Producto</a>
+        <nav class="navBar">
+                <a class="barra1" href="home" >Inicio</a>
+                <a class="barra3" href="producto">Viajes</a>
                 <a class="barra4" href="#">Carrito</a>
+                <a class="barra2" href="registro">Registro</a>
                 <a class="barra5" href="login">Login</a>
         </nav>
         
     </header>
     <main class="main-container">
         <div class="main-top">
-            <h2 class="subtitulo">Carrito de compras</h2>
-           <div class="bottom-banner">
-            <img class="user-img" src="/img/el_pato_lucas.jpg" alt="">
+            <!-- <h2 class="subtitulo">Carrito de compras</h2> -->
+            <div class="bottom-banner">
             <a href="./producto" class="ir-a-producto">
                 <p class="a-productos">Agregar producto +</p>
             </a>
@@ -43,23 +42,32 @@
             <article class="productos-en-carrito">
                 <div class="producto">
                     <div class="box-product">
-                        <img src="/img/salta.jpg" class="img-product">
+                        <img src="/img/calles-de-salta.jpg" class="img-product">
                         <div class="descripcion-producto">
-                            <h2 class="product-name">Salta</h2>
-                            <p class="dias">5 dias <span class="precio">$14.977</span> </p>
-                            <p class="ofertas">20% OFF</p>                              
-                            <p class="salida"><i class="fa-sharp fa-solid fa-plane-departure"></i>28-12-22</p>
-                            <p class="vuelta"><i class="fa-solid fa-plane-arrival"></i>05-01-23</p>
-                            <h3 class="hospedaje"><i class="fa-solid fa-square-h"></i>Hotel del sol</h3>
-                            <p class="vehiculo">Alquiler de vehiculo: <span class="alqAuto">5 dias</span></p>
-                            <p class="exursiones">Excursiones: <span class="alqExcursiones">2</span></p>
-                            <div class="cantidad-producto">
-                                <label class="selctor-cantidad" for="cantidad-vuelos">Cantidad: </label>
-                                <select class="selctor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
+                            <div class="bajarLinea"> 
+                                <h2 class="product-name">Salta</h2>
+                                <p class="dias">5 dias <span class="precio">$14.977</span> </p></div>
+                                <p class="ofertas">20% OFF</p>                              
+                            <div class="fechaIdaVuelta">
+                                <p class="salida">Ida <span class="fechaViaje"><i class="fa-sharp fa-solid fa-plane-departure"></i>28-12-22</span></p>
+                                <p class="vuelta">Vuelta <span class="fechaViaje"><i class="fa-solid fa-plane-arrival"></i>05-01-23</span></p>
+                            </div>
+                            <h3 class="hospedaje"><i class="fa-solid fa-square-h"></i>Hospedaje</h3>
+                            <p class="comentario">Hotel del sol</p> <!--esta clase 2ble es para poner un formato de titulo apurado-->
+                            <h3 class="hospedaje ">Alquiler de vehiculo</h3>
+                            <p class="alqAuto comentario">Corsa cuatro puertas familiar</p>
+                            <ul class="excursionList">
+                                <h3 class="hospedaje">Excursiones incluidas</h3>
+                                <li class="elementoExcursion">Día completo a Salinas Grandes, Purmamarca con senderismo</li>
+                                <li class="elementoExcursion">San antonio de los cobres, ruta del tren a las nubes</li>
+                            </ul><!--Hacerlo 2-->
+                            <!-- <div class="cantidad-producto">
+                                <label class="selector" for="cantidad-vuelos">Personas: </label>
+                                <select class="selcetor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                 </select>
-                            </div>
+                            </div> -->
                             <button class="product-remove">
                                 <i class="fa-solid fa-trash"></i>
                             </button>
@@ -70,21 +78,32 @@
             <article class="productos-en-carrito">
                 <div class="producto">
                     <div class="box-product">
-                        <img src="/img/cordoba.jpg" class="img-product">
+                        <img src="/img/bariloche-otoño.jpg" class="img-product">
                         <div class="descripcion-producto">
-                            <p class="product-name">Córdoba</p>
-                            <p class="dias">5 dias <span class="precio">$6.770</span> </p>                              
-                            <p>
-                                Córdoba ofrece al visitante innumerables atractivos, enmarcados por los distintos sistemas serranos del oeste y noroeste provincial.
-                                Sus ríos y arroyos, sus interminables áreas verdes y boscosas, las bondades del clima y los paisajes naturales únicos, atraen visitantes todo el año hacia este privilegiado lugar del mundo.
-                            </p>
-                            <div class="cantidad-producto">
-                                <label class="selctor-cantidad" for="cantidad-vuelos">Unidades</label>
-                                <select class="selctor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
+                            <div class="bajarLinea"> 
+                                <h2 class="product-name">Bariloche</h2>
+                                <p class="dias">6 dias <span class="precio">$14.977</span> </p></div>
+                                <p class="ofertas">10% OFF</p>                              
+                            <div class="fechaIdaVuelta">
+                                <p class="salida">Ida <span class="fechaViaje"><i class="fa-sharp fa-solid fa-plane-departure"></i>05-04-23</span></p>
+                                <p class="vuelta">Vuelta <span class="fechaViaje"><i class="fa-solid fa-plane-arrival"></i>11-04-23</span></p>
+                            </div>
+                            <h3 class="hospedaje"><i class="fa-solid fa-square-h"></i>Hospedaje</h3>
+                            <p class="comentario">Apart Holtel</p> <!--esta clase 2ble es para poner un formato de titulo apurado-->
+                            <h3 class="hospedaje ">Alquiler de vehiculo</h3>
+                            <p class="alqAuto comentario">Servicio de combi</p>
+                            <ul class="excursionList">
+                                <h3 class="hospedaje">Excursiones incluidas</h3>
+                                <li class="elementoExcursion">Tarde en Cerro Catedral</li>
+                                <li class="elementoExcursion">Travesia 4 x 4 </li>
+                            </ul><!--Hacerlo 2-->
+                            <!-- <div class="cantidad-producto"> // PREGUNTAR Y SE VA ANTES DE ENTREGAR
+                                <label class="selector" for="cantidad-vuelos">Personas: </label>
+                                <select class="selcetor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                 </select>
-                            </div>
+                            </div> -->
                             <button class="product-remove">
                                 <i class="fa-solid fa-trash"></i>
                             </button>
@@ -95,48 +114,32 @@
             <article class="productos-en-carrito">
                 <div class="producto">
                     <div class="box-product">
-                        <img src="/img/obelisco.png" class="img-product">
+                        <img src="/img/cumbresita.jpg" class="img-product">
                         <div class="descripcion-producto">
-                            <p class="product-name">Buenos Aires</p>
-                            <p class="dias">5 dias <span class="precio">$6.770</span> </p>                              
-                            <p>
-                                Entre los destinos turísticos que debes visitar si estás en Buenos Aires destacan Puerto Madero,
-                                La Boca y el Teatro Colón. Si quieres bailar tango, comer carne deliciosa, conocer estadios y visitar calles coloridas, 
-                                la ciudad de Buenos Aires es la indicada.
-                            </p>
-                            <div class="cantidad-producto">
-                                <label class="selctor-cantidad" for="cantidad-vuelos">Unidades</label>
-                                <select class="selctor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
+                            <div class="bajarLinea"> 
+                                <h2 class="product-name">Córdoba</h2>
+                                <p class="dias">7 dias <span class="precio">$14.977</span> </p></div>
+                                <p class="ofertas">15% OFF</p>                              
+                            <div class="fechaIdaVuelta">
+                                <p class="salida">Ida <span class="fechaViaje"><i class="fa-sharp fa-solid fa-plane-departure"></i>10-10-23</span></p>
+                                <p class="vuelta">Vuelta <span class="fechaViaje"><i class="fa-solid fa-plane-arrival"></i>17-10-23</span></p>
+                            </div>
+                            <h3 class="hospedaje"><i class="fa-solid fa-square-h"></i>Hospedaje</h3>
+                            <p class="comentario">Morada Hostel</p> <!--esta clase 2ble es para poner un formato de titulo apurado-->
+                            <h3 class="hospedaje ">Alquiler de vehiculo</h3>
+                            <p class="alqAuto comentario">Servicio de combi</p>
+                            <ul class="excursionList">
+                                <h3 class="hospedaje">Excursiones incluidas</h3>
+                                <li class="elementoExcursion">Encuentro de DJ's la Fabrica</li>
+                                <li class="elementoExcursion">Día completo en Cosquin</li>
+                            </ul><!--Hacerlo 2-->
+                            <!-- <div class="cantidad-producto">
+                                <label class="selector" for="cantidad-vuelos">Personas: </label>
+                                <select class="selcetor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                 </select>
-                            </div>
-                            <button class="product-remove">
-                                <i class="fa-solid fa-trash"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <article class="productos-en-carrito">
-                <div class="producto">
-                    <div class="box-product">
-                        <img src="/img/bariloche.jpg" class="img-product">
-                        <div class="descripcion-producto">
-                            <p class="product-name">Bariloche</p>
-                            <p class="dias">5 dias <span class="precio">$6.770</span> </p>                              
-                            <p>
-                                Bariloche es una ciudad ubicada entre bosques milenarios, montañas cubiertas de nieve y 
-                                lagos cristalinos, en la provincia de Río Negro, Argentina. Se trata de una postal de nuestra Patagonia.
-                                Una ciudad anfitriona por excelencia, enmarcada por algunas de las bellezas naturales más importantes del país.
-                            </p>
-                            <div class="cantidad-producto">
-                                <label class="selctor-cantidad" for="cantidad-vuelos">Unidades</label>
-                                <select class="selctor-cantidad" name="cantidad-vuelos" id="cantidad-vuelos">
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                </select>
-                            </div>
+                            </div> -->
                             <button class="product-remove">
                                 <i class="fa-solid fa-trash"></i>
                             </button>
@@ -147,28 +150,30 @@
         </section>
         <div class="main-bottom">
             <div class="medio-de-pago">
-                <p class="total-precio">Total: <span class="precio-total-muestra">$13245</span></p>
-                <label for="tipo-de-pago">Seleccione medio de pago</label>
+                <!-- <label for="tipo-de-pago">Seleccione medio de pago</label> //PREGUNTAR Y SE VA ANTES DE LA ENTREGA
                 <select name="tipo-de-pago" id="tipo-de-pago">
                     <option value="tarjeta-visa">Tarjeta VISA</option>
                     <option value="tarjeta-naranja">Tarjeta NARANJA</option>
                     <option value="otro-medio-de-pago">Otra</option>
-                </select>
+                </select> -->
+                <p class="total-precio"> <b>Total:</b> <span class="precio-total-muestra"><b>$13245</b></span></p>
             </div>
             <div class="limpiar-container">
-                <button class="limpiar-carrito">Vaciar carrito</button>
-                <button class="pago-compra">Pagar</button>
+                <button class="boton limpiar-carrito">Vaciar</button>
+                <button class="boton pago-compra">Pagar</button>
             </div>
         </div>
     </main>
     <footer class="contenedor-footer">
 
-        <p class="pfinal"> <i class="fa-solid fa-at"></i> <a href= "mailto:mdhl@chihockey.org" target="_blank">mdhl@chihockey.org</a></p>
+        <p class="pfinal"> <i class="fa-solid fa-at"></i> <a  class="ultimo" href= "mailto:mdhl@chihockey.org" target="_blank"> <b>vueltaalmundo@vuelos.com </b></a></p>
 
-        <P class="pfinal1" > <i class="fa-solid fa-phone"></i> <a href="tel:3512540085"> 3512540085</a></P>
+        <P class="pfinal1" > <i class="fa-solid fa-phone"></i> <a class="ultimo" href="tel:3512540085"> <b> 3512540085 </b></a></P>
 
-        <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> <a href="https://www.google.com.ar/maps/@-34.605646,-58.781371,9.75z/data=!4m2!7m1!2e1"> Bs.As </a> </p>
+        <p class="pfinal2" ><i class="fa-solid fa-map-pin"></i> <a  class="ultimo" href="https://www.google.com.ar/maps/@-34.605646,-58.781371,9.75z/data=!4m2!7m1!2e1"> <b>Bs.As</b> </a> </p>
+     
     </footer>
+         <p class="copy">Copyright © 2022 </p>
     <script src="https://kit.fontawesome.com/c756401e18.js" crossorigin="anonymous"></script>
 </body>
 </html>
