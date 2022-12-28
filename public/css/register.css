@@ -252,18 +252,6 @@ main form{
   }
     
 
-  /*
-   .pfinal{
-    padding-left: 2rem;
-   
-   }
-   .pfinal1{
-    padding-left: 20rem;
-   }
-    .pfinal2{
-   padding-left: 25rem;
-    } */
-
 
 
    
@@ -273,7 +261,7 @@ main form{
 
 @media  (max-width:425px){
     nav{
-        background-color: rgb(64, 120, 240);
+        background-color: rgb(64, 120, 240);  /*  PARA CAMBIAR!color de backc nav*/
         margin: 0;
         font-size: 10px;
     }
