@@ -303,4 +303,44 @@ main form{
 
 }
 
+@media  (max-width:768px){
+    nav{
+        background-color: rgb(64, 120, 240);  /*  PARA CAMBIAR!color de backc nav*/
+        margin: 0;
+        font-size: 10px;
+    }
+
+    
+   .barra1,
+   .barra2,
+   .barra3,
+   .barra4,
+   .barra5,
+   .barra6{
+    
+    margin: 0.15rem;
+    justify-content: center;
+    font-size: 12px;
+    }
+
+    .contenedor-footer{
+        font-size: 10px;
+    }
+    main form{
+        
+        text-align: left;
+        width:100%;
+       margin: auto;
+    }
+        
+    
+    
+    .pform {
+        padding: 15px;
+      
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        
+       }
+}
 
