@@ -31,7 +31,7 @@
      /*BANNER*/
 .main-top{
     /* margin-bottom: 5px; */
-    width: 80%;
+    width: 100%;/**/
     /* border: dotted 2px red; */
     display: flex;
     flex-direction: column;
@@ -286,6 +286,7 @@
     display: none;
  } */
  .main-top{
+    width: 80%;
     position: relative;
  }
  .bottom-banner{
