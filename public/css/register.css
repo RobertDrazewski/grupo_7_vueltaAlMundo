@@ -261,7 +261,7 @@ main form{
 
 @media  (max-width:425px){
     nav{
-        background-color: rgb(64, 120, 240);  /*  PARA CAMBIAR!color de backc nav*/
+        
         margin: 0;
         font-size: 10px;
     }
@@ -305,7 +305,7 @@ main form{
 
 @media  (max-width:768px){
     nav{
-        background-color: rgb(64, 120, 240);  /*  PARA CAMBIAR!color de backc nav*/
+          
         margin: 0;
         font-size: 10px;
     }
@@ -321,7 +321,7 @@ main form{
     margin: 0.15rem;
     justify-content: center;
     font-size: 12px;
-    
+
     }
 
     .contenedor-footer{
